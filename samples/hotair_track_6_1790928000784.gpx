@@ -1,0 +1,3740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="FlutterApp" xmlns="http://www.topografix.com/GPX/1/1" xmlns:hotair="https://hotair.app/recorder" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <name>2026 Oct 02  07:50 [pts: 629]</name>
+    <trkseg>
+      <trkpt lat="46.993889" lon="15.941269">
+        <ele>365.36</ele>
+        <time>2026-10-02T05:50:16.000Z</time>
+        <extensions>
+          <hotair:vsi>577.87</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993904" lon="15.941413">
+        <ele>365.18</ele>
+        <time>2026-10-02T05:50:27.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993904" lon="15.941413">
+        <ele>365.18</ele>
+        <time>2026-10-02T05:50:27.000Z</time>
+        <extensions>
+          <hotair:vsi>46.29</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993934" lon="15.941554">
+        <ele>365.98</ele>
+        <time>2026-10-02T05:50:38.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993934" lon="15.941554">
+        <ele>365.98</ele>
+        <time>2026-10-02T05:50:38.000Z</time>
+        <extensions>
+          <hotair:vsi>18.35</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993933" lon="15.941707">
+        <ele>370.42</ele>
+        <time>2026-10-02T05:50:49.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993935" lon="15.941850">
+        <ele>375.41</ele>
+        <time>2026-10-02T05:50:59.000Z</time>
+        <extensions>
+          <hotair:vsi>115.46</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993913" lon="15.941996">
+        <ele>377.75</ele>
+        <time>2026-10-02T05:51:10.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993905" lon="15.942183">
+        <ele>375.09</ele>
+        <time>2026-10-02T05:51:21.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993876" lon="15.942354">
+        <ele>375.50</ele>
+        <time>2026-10-02T05:51:32.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993835" lon="15.942569">
+        <ele>378.90</ele>
+        <time>2026-10-02T05:51:43.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993835" lon="15.942569">
+        <ele>378.90</ele>
+        <time>2026-10-02T05:51:43.000Z</time>
+        <extensions>
+          <hotair:vsi>37.54</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993792" lon="15.942723">
+        <ele>385.82</ele>
+        <time>2026-10-02T05:51:53.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993792" lon="15.942723">
+        <ele>385.82</ele>
+        <time>2026-10-02T05:51:53.000Z</time>
+        <extensions>
+          <hotair:vsi>77.06</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993712" lon="15.942947">
+        <ele>402.67</ele>
+        <time>2026-10-02T05:52:04.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993712" lon="15.942947">
+        <ele>402.67</ele>
+        <time>2026-10-02T05:52:04.000Z</time>
+        <extensions>
+          <hotair:vsi>249.54</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993591" lon="15.943132">
+        <ele>416.23</ele>
+        <time>2026-10-02T05:52:14.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993441" lon="15.943353">
+        <ele>422.81</ele>
+        <time>2026-10-02T05:52:25.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993333" lon="15.943491">
+        <ele>424.83</ele>
+        <time>2026-10-02T05:52:35.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993333" lon="15.943491">
+        <ele>424.83</ele>
+        <time>2026-10-02T05:52:35.000Z</time>
+        <extensions>
+          <hotair:vsi>36.41</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993214" lon="15.943609">
+        <ele>424.50</ele>
+        <time>2026-10-02T05:52:46.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993214" lon="15.943609">
+        <ele>424.50</ele>
+        <time>2026-10-02T05:52:46.000Z</time>
+        <extensions>
+          <hotair:vsi>15.84</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993121" lon="15.943738">
+        <ele>423.30</ele>
+        <time>2026-10-02T05:52:56.000Z</time>
+        <extensions>
+          <hotair:vsi>-5.08</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993006" lon="15.943859">
+        <ele>427.48</ele>
+        <time>2026-10-02T05:53:07.000Z</time>
+      </trkpt>
+      <trkpt lat="46.992930" lon="15.943891">
+        <ele>439.63</ele>
+        <time>2026-10-02T05:53:18.000Z</time>
+      </trkpt>
+      <trkpt lat="46.992930" lon="15.943891">
+        <ele>439.63</ele>
+        <time>2026-10-02T05:53:18.000Z</time>
+        <extensions>
+          <hotair:vsi>146.97</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.992927" lon="15.943972">
+        <ele>462.55</ele>
+        <time>2026-10-02T05:53:29.000Z</time>
+      </trkpt>
+      <trkpt lat="46.992927" lon="15.943972">
+        <ele>462.55</ele>
+        <time>2026-10-02T05:53:29.000Z</time>
+        <extensions>
+          <hotair:vsi>353.85</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.992971" lon="15.944038">
+        <ele>483.24</ele>
+        <time>2026-10-02T05:53:39.000Z</time>
+        <extensions>
+          <hotair:vsi>445.05</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993026" lon="15.944060">
+        <ele>496.04</ele>
+        <time>2026-10-02T05:53:49.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993026" lon="15.944060">
+        <ele>496.04</ele>
+        <time>2026-10-02T05:53:49.000Z</time>
+        <extensions>
+          <hotair:vsi>310.35</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993094" lon="15.944102">
+        <ele>507.34</ele>
+        <time>2026-10-02T05:53:59.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993185" lon="15.944141">
+        <ele>512.60</ele>
+        <time>2026-10-02T05:54:10.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993267" lon="15.944128">
+        <ele>517.61</ele>
+        <time>2026-10-02T05:54:20.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993357" lon="15.944141">
+        <ele>516.22</ele>
+        <time>2026-10-02T05:54:31.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993427" lon="15.944165">
+        <ele>515.26</ele>
+        <time>2026-10-02T05:54:41.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993514" lon="15.944173">
+        <ele>517.29</ele>
+        <time>2026-10-02T05:54:51.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993583" lon="15.944170">
+        <ele>518.63</ele>
+        <time>2026-10-02T05:55:02.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993583" lon="15.944170">
+        <ele>518.63</ele>
+        <time>2026-10-02T05:55:02.000Z</time>
+        <extensions>
+          <hotair:vsi>43.53</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993661" lon="15.944164">
+        <ele>518.30</ele>
+        <time>2026-10-02T05:55:12.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993661" lon="15.944164">
+        <ele>518.30</ele>
+        <time>2026-10-02T05:55:12.000Z</time>
+        <extensions>
+          <hotair:vsi>0.75</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993767" lon="15.944145">
+        <ele>516.46</ele>
+        <time>2026-10-02T05:55:23.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993767" lon="15.944145">
+        <ele>516.46</ele>
+        <time>2026-10-02T05:55:23.000Z</time>
+        <extensions>
+          <hotair:vsi>-2.18</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993874" lon="15.944151">
+        <ele>513.31</ele>
+        <time>2026-10-02T05:55:34.000Z</time>
+        <extensions>
+          <hotair:vsi>-54.49</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.993962" lon="15.944144">
+        <ele>508.90</ele>
+        <time>2026-10-02T05:55:44.000Z</time>
+      </trkpt>
+      <trkpt lat="46.993962" lon="15.944144">
+        <ele>508.90</ele>
+        <time>2026-10-02T05:55:44.000Z</time>
+        <extensions>
+          <hotair:vsi>-53.03</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.994033" lon="15.944153">
+        <ele>499.54</ele>
+        <time>2026-10-02T05:55:55.000Z</time>
+      </trkpt>
+      <trkpt lat="46.994033" lon="15.944153">
+        <ele>499.54</ele>
+        <time>2026-10-02T05:55:55.000Z</time>
+        <extensions>
+          <hotair:vsi>-182.13</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.994130" lon="15.944151">
+        <ele>486.92</ele>
+        <time>2026-10-02T05:56:06.000Z</time>
+      </trkpt>
+      <trkpt lat="46.994198" lon="15.944186">
+        <ele>483.88</ele>
+        <time>2026-10-02T05:56:16.000Z</time>
+      </trkpt>
+      <trkpt lat="46.994198" lon="15.944186">
+        <ele>483.88</ele>
+        <time>2026-10-02T05:56:16.000Z</time>
+        <extensions>
+          <hotair:vsi>-173.9</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.994243" lon="15.944247">
+        <ele>498.24</ele>
+        <time>2026-10-02T05:56:26.000Z</time>
+      </trkpt>
+      <trkpt lat="46.994243" lon="15.944247">
+        <ele>498.24</ele>
+        <time>2026-10-02T05:56:26.000Z</time>
+        <extensions>
+          <hotair:vsi>114.73</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.994365" lon="15.944287">
+        <ele>519.67</ele>
+        <time>2026-10-02T05:56:36.000Z</time>
+        <extensions>
+          <hotair:vsi>358.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.994540" lon="15.944275">
+        <ele>537.56</ele>
+        <time>2026-10-02T05:56:47.000Z</time>
+      </trkpt>
+      <trkpt lat="46.994540" lon="15.944275">
+        <ele>537.56</ele>
+        <time>2026-10-02T05:56:47.000Z</time>
+        <extensions>
+          <hotair:vsi>371.14</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.994774" lon="15.944235">
+        <ele>556.54</ele>
+        <time>2026-10-02T05:56:58.000Z</time>
+      </trkpt>
+      <trkpt lat="46.995082" lon="15.944146">
+        <ele>577.26</ele>
+        <time>2026-10-02T05:57:08.000Z</time>
+        <extensions>
+          <hotair:vsi>366.1</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.995423" lon="15.944091">
+        <ele>597.51</ele>
+        <time>2026-10-02T05:57:19.000Z</time>
+      </trkpt>
+      <trkpt lat="46.995423" lon="15.944091">
+        <ele>597.51</ele>
+        <time>2026-10-02T05:57:19.000Z</time>
+        <extensions>
+          <hotair:vsi>405.5</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.995754" lon="15.944024">
+        <ele>603.90</ele>
+        <time>2026-10-02T05:57:29.000Z</time>
+      </trkpt>
+      <trkpt lat="46.996100" lon="15.943971">
+        <ele>611.21</ele>
+        <time>2026-10-02T05:57:40.000Z</time>
+      </trkpt>
+      <trkpt lat="46.996100" lon="15.943971">
+        <ele>611.21</ele>
+        <time>2026-10-02T05:57:40.000Z</time>
+        <extensions>
+          <hotair:vsi>113.85</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.996426" lon="15.943917">
+        <ele>624.60</ele>
+        <time>2026-10-02T05:57:51.000Z</time>
+      </trkpt>
+      <trkpt lat="46.996426" lon="15.943917">
+        <ele>624.60</ele>
+        <time>2026-10-02T05:57:51.000Z</time>
+        <extensions>
+          <hotair:vsi>182.42</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.996651" lon="15.943824">
+        <ele>628.51</ele>
+        <time>2026-10-02T05:58:01.000Z</time>
+        <extensions>
+          <hotair:vsi>232.68</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.997028" lon="15.943854">
+        <ele>648.39</ele>
+        <time>2026-10-02T05:58:11.000Z</time>
+      </trkpt>
+      <trkpt lat="46.997028" lon="15.943854">
+        <ele>648.39</ele>
+        <time>2026-10-02T05:58:11.000Z</time>
+        <extensions>
+          <hotair:vsi>214.39</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.997349" lon="15.943817">
+        <ele>654.75</ele>
+        <time>2026-10-02T05:58:22.000Z</time>
+      </trkpt>
+      <trkpt lat="46.997618" lon="15.943813">
+        <ele>657.34</ele>
+        <time>2026-10-02T05:58:32.000Z</time>
+      </trkpt>
+      <trkpt lat="46.997878" lon="15.943822">
+        <ele>661.08</ele>
+        <time>2026-10-02T05:58:42.000Z</time>
+      </trkpt>
+      <trkpt lat="46.998138" lon="15.943845">
+        <ele>664.94</ele>
+        <time>2026-10-02T05:58:52.000Z</time>
+      </trkpt>
+      <trkpt lat="46.998138" lon="15.943845">
+        <ele>664.94</ele>
+        <time>2026-10-02T05:58:52.000Z</time>
+        <extensions>
+          <hotair:vsi>73.72</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.998404" lon="15.943882">
+        <ele>670.24</ele>
+        <time>2026-10-02T05:59:03.000Z</time>
+      </trkpt>
+      <trkpt lat="46.998404" lon="15.943882">
+        <ele>670.24</ele>
+        <time>2026-10-02T05:59:03.000Z</time>
+        <extensions>
+          <hotair:vsi>81.7</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.998651" lon="15.943924">
+        <ele>670.46</ele>
+        <time>2026-10-02T05:59:13.000Z</time>
+      </trkpt>
+      <trkpt lat="46.998651" lon="15.943924">
+        <ele>670.46</ele>
+        <time>2026-10-02T05:59:13.000Z</time>
+        <extensions>
+          <hotair:vsi>82.78</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.998958" lon="15.943973">
+        <ele>677.09</ele>
+        <time>2026-10-02T05:59:24.000Z</time>
+      </trkpt>
+      <trkpt lat="46.998958" lon="15.943973">
+        <ele>677.09</ele>
+        <time>2026-10-02T05:59:24.000Z</time>
+        <extensions>
+          <hotair:vsi>29.96</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.999152" lon="15.944017">
+        <ele>663.29</ele>
+        <time>2026-10-02T05:59:34.000Z</time>
+      </trkpt>
+      <trkpt lat="46.999152" lon="15.944017">
+        <ele>663.29</ele>
+        <time>2026-10-02T05:59:34.000Z</time>
+        <extensions>
+          <hotair:vsi>-65.49</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.999414" lon="15.944054">
+        <ele>655.47</ele>
+        <time>2026-10-02T05:59:45.000Z</time>
+      </trkpt>
+      <trkpt lat="46.999674" lon="15.944095">
+        <ele>648.41</ele>
+        <time>2026-10-02T05:59:56.000Z</time>
+      </trkpt>
+      <trkpt lat="46.999674" lon="15.944095">
+        <ele>648.41</ele>
+        <time>2026-10-02T05:59:56.000Z</time>
+        <extensions>
+          <hotair:vsi>-123.51</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.999918" lon="15.944139">
+        <ele>642.80</ele>
+        <time>2026-10-02T06:00:07.000Z</time>
+      </trkpt>
+      <trkpt lat="46.999918" lon="15.944139">
+        <ele>642.80</ele>
+        <time>2026-10-02T06:00:07.000Z</time>
+        <extensions>
+          <hotair:vsi>-104.14</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.000150" lon="15.944164">
+        <ele>635.44</ele>
+        <time>2026-10-02T06:00:17.000Z</time>
+      </trkpt>
+      <trkpt lat="47.000150" lon="15.944164">
+        <ele>635.44</ele>
+        <time>2026-10-02T06:00:17.000Z</time>
+        <extensions>
+          <hotair:vsi>-138.75</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.000374" lon="15.944191">
+        <ele>624.07</ele>
+        <time>2026-10-02T06:00:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.000374" lon="15.944191">
+        <ele>624.07</ele>
+        <time>2026-10-02T06:00:27.000Z</time>
+        <extensions>
+          <hotair:vsi>-188.07</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.000634" lon="15.944193">
+        <ele>615.24</ele>
+        <time>2026-10-02T06:00:38.000Z</time>
+      </trkpt>
+      <trkpt lat="47.000634" lon="15.944193">
+        <ele>615.24</ele>
+        <time>2026-10-02T06:00:38.000Z</time>
+        <extensions>
+          <hotair:vsi>-185.88</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.000866" lon="15.944218">
+        <ele>610.34</ele>
+        <time>2026-10-02T06:00:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.000866" lon="15.944218">
+        <ele>610.34</ele>
+        <time>2026-10-02T06:00:48.000Z</time>
+        <extensions>
+          <hotair:vsi>-147.19</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.001126" lon="15.944215">
+        <ele>609.11</ele>
+        <time>2026-10-02T06:00:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.001378" lon="15.944222">
+        <ele>609.35</ele>
+        <time>2026-10-02T06:01:10.000Z</time>
+      </trkpt>
+      <trkpt lat="47.001378" lon="15.944222">
+        <ele>609.35</ele>
+        <time>2026-10-02T06:01:10.000Z</time>
+        <extensions>
+          <hotair:vsi>8.23</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.001601" lon="15.944215">
+        <ele>614.59</ele>
+        <time>2026-10-02T06:01:21.000Z</time>
+      </trkpt>
+      <trkpt lat="47.001601" lon="15.944215">
+        <ele>614.59</ele>
+        <time>2026-10-02T06:01:21.000Z</time>
+        <extensions>
+          <hotair:vsi>54.69</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.001892" lon="15.944227">
+        <ele>615.17</ele>
+        <time>2026-10-02T06:01:32.000Z</time>
+        <extensions>
+          <hotair:vsi>78.23</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.002148" lon="15.944232">
+        <ele>611.35</ele>
+        <time>2026-10-02T06:01:43.000Z</time>
+      </trkpt>
+      <trkpt lat="47.002435" lon="15.944194">
+        <ele>598.53</ele>
+        <time>2026-10-02T06:01:54.000Z</time>
+      </trkpt>
+      <trkpt lat="47.002435" lon="15.944194">
+        <ele>598.53</ele>
+        <time>2026-10-02T06:01:54.000Z</time>
+        <extensions>
+          <hotair:vsi>-165.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.002684" lon="15.944232">
+        <ele>591.76</ele>
+        <time>2026-10-02T06:02:04.000Z</time>
+      </trkpt>
+      <trkpt lat="47.002684" lon="15.944232">
+        <ele>591.76</ele>
+        <time>2026-10-02T06:02:04.000Z</time>
+        <extensions>
+          <hotair:vsi>-187.53</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.002939" lon="15.944231">
+        <ele>578.57</ele>
+        <time>2026-10-02T06:02:15.000Z</time>
+      </trkpt>
+      <trkpt lat="47.002939" lon="15.944231">
+        <ele>578.57</ele>
+        <time>2026-10-02T06:02:15.000Z</time>
+        <extensions>
+          <hotair:vsi>-196.01</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.003198" lon="15.944197">
+        <ele>566.60</ele>
+        <time>2026-10-02T06:02:25.000Z</time>
+      </trkpt>
+      <trkpt lat="47.003198" lon="15.944197">
+        <ele>566.60</ele>
+        <time>2026-10-02T06:02:25.000Z</time>
+        <extensions>
+          <hotair:vsi>-260.97</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.003457" lon="15.944178">
+        <ele>550.03</ele>
+        <time>2026-10-02T06:02:35.000Z</time>
+        <extensions>
+          <hotair:vsi>-276.1</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.003678" lon="15.944191">
+        <ele>536.28</ele>
+        <time>2026-10-02T06:02:45.000Z</time>
+        <extensions>
+          <hotair:vsi>-292.91</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.003888" lon="15.944178">
+        <ele>531.86</ele>
+        <time>2026-10-02T06:02:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.003888" lon="15.944178">
+        <ele>531.86</ele>
+        <time>2026-10-02T06:02:56.000Z</time>
+        <extensions>
+          <hotair:vsi>-215.04</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.004067" lon="15.944159">
+        <ele>531.60</ele>
+        <time>2026-10-02T06:03:06.000Z</time>
+        <extensions>
+          <hotair:vsi>-4.97</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.004228" lon="15.944145">
+        <ele>537.25</ele>
+        <time>2026-10-02T06:03:17.000Z</time>
+      </trkpt>
+      <trkpt lat="47.004228" lon="15.944145">
+        <ele>537.25</ele>
+        <time>2026-10-02T06:03:17.000Z</time>
+        <extensions>
+          <hotair:vsi>67.51</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.004441" lon="15.944154">
+        <ele>545.44</ele>
+        <time>2026-10-02T06:03:27.000Z</time>
+        <extensions>
+          <hotair:vsi>153.36</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.004661" lon="15.944140">
+        <ele>546.81</ele>
+        <time>2026-10-02T06:03:38.000Z</time>
+      </trkpt>
+      <trkpt lat="47.004661" lon="15.944140">
+        <ele>546.81</ele>
+        <time>2026-10-02T06:03:38.000Z</time>
+        <extensions>
+          <hotair:vsi>62.26</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.004853" lon="15.944090">
+        <ele>541.96</ele>
+        <time>2026-10-02T06:03:49.000Z</time>
+      </trkpt>
+      <trkpt lat="47.004853" lon="15.944090">
+        <ele>541.96</ele>
+        <time>2026-10-02T06:03:49.000Z</time>
+        <extensions>
+          <hotair:vsi>-29.28</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005035" lon="15.944075">
+        <ele>531.31</ele>
+        <time>2026-10-02T06:03:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005195" lon="15.944064">
+        <ele>510.86</ele>
+        <time>2026-10-02T06:04:10.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005195" lon="15.944064">
+        <ele>510.86</ele>
+        <time>2026-10-02T06:04:10.000Z</time>
+        <extensions>
+          <hotair:vsi>-287.16</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005311" lon="15.944083">
+        <ele>490.03</ele>
+        <time>2026-10-02T06:04:21.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005311" lon="15.944083">
+        <ele>490.03</ele>
+        <time>2026-10-02T06:04:21.000Z</time>
+        <extensions>
+          <hotair:vsi>-406.07</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005359" lon="15.944120">
+        <ele>477.19</ele>
+        <time>2026-10-02T06:04:32.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005359" lon="15.944120">
+        <ele>477.19</ele>
+        <time>2026-10-02T06:04:32.000Z</time>
+        <extensions>
+          <hotair:vsi>-308.28</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005423" lon="15.944176">
+        <ele>475.47</ele>
+        <time>2026-10-02T06:04:42.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005470" lon="15.944246">
+        <ele>476.80</ele>
+        <time>2026-10-02T06:04:53.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005470" lon="15.944246">
+        <ele>476.80</ele>
+        <time>2026-10-02T06:04:53.000Z</time>
+        <extensions>
+          <hotair:vsi>-3.75</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005496" lon="15.944318">
+        <ele>480.59</ele>
+        <time>2026-10-02T06:05:04.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005496" lon="15.944318">
+        <ele>480.59</ele>
+        <time>2026-10-02T06:05:04.000Z</time>
+        <extensions>
+          <hotair:vsi>38.09</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005520" lon="15.944383">
+        <ele>476.47</ele>
+        <time>2026-10-02T06:05:14.000Z</time>
+        <extensions>
+          <hotair:vsi>-1.96</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005511" lon="15.944451">
+        <ele>473.25</ele>
+        <time>2026-10-02T06:05:25.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005511" lon="15.944451">
+        <ele>473.25</ele>
+        <time>2026-10-02T06:05:25.000Z</time>
+        <extensions>
+          <hotair:vsi>-60.17</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005540" lon="15.944532">
+        <ele>480.46</ele>
+        <time>2026-10-02T06:05:36.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005540" lon="15.944532">
+        <ele>480.46</ele>
+        <time>2026-10-02T06:05:36.000Z</time>
+        <extensions>
+          <hotair:vsi>25.56</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005557" lon="15.944591">
+        <ele>497.03</ele>
+        <time>2026-10-02T06:05:46.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005557" lon="15.944591">
+        <ele>497.03</ele>
+        <time>2026-10-02T06:05:46.000Z</time>
+        <extensions>
+          <hotair:vsi>203.47</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005685" lon="15.944569">
+        <ele>522.61</ele>
+        <time>2026-10-02T06:05:57.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005685" lon="15.944569">
+        <ele>522.61</ele>
+        <time>2026-10-02T06:05:57.000Z</time>
+        <extensions>
+          <hotair:vsi>457.78</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.005890" lon="15.944525">
+        <ele>542.77</ele>
+        <time>2026-10-02T06:06:08.000Z</time>
+      </trkpt>
+      <trkpt lat="47.005890" lon="15.944525">
+        <ele>542.77</ele>
+        <time>2026-10-02T06:06:08.000Z</time>
+        <extensions>
+          <hotair:vsi>400.14</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.006173" lon="15.944442">
+        <ele>561.81</ele>
+        <time>2026-10-02T06:06:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.006173" lon="15.944442">
+        <ele>561.81</ele>
+        <time>2026-10-02T06:06:19.000Z</time>
+        <extensions>
+          <hotair:vsi>336.39</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.006450" lon="15.944360">
+        <ele>575.30</ele>
+        <time>2026-10-02T06:06:29.000Z</time>
+        <extensions>
+          <hotair:vsi>318.38</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.006757" lon="15.944314">
+        <ele>583.43</ele>
+        <time>2026-10-02T06:06:39.000Z</time>
+        <extensions>
+          <hotair:vsi>218.8</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.007069" lon="15.944292">
+        <ele>590.13</ele>
+        <time>2026-10-02T06:06:50.000Z</time>
+      </trkpt>
+      <trkpt lat="47.007069" lon="15.944292">
+        <ele>590.13</ele>
+        <time>2026-10-02T06:06:50.000Z</time>
+        <extensions>
+          <hotair:vsi>111.93</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.007349" lon="15.944279">
+        <ele>589.58</ele>
+        <time>2026-10-02T06:07:01.000Z</time>
+      </trkpt>
+      <trkpt lat="47.007349" lon="15.944279">
+        <ele>589.58</ele>
+        <time>2026-10-02T06:07:01.000Z</time>
+        <extensions>
+          <hotair:vsi>46.66</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.007629" lon="15.944271">
+        <ele>589.02</ele>
+        <time>2026-10-02T06:07:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.007629" lon="15.944271">
+        <ele>589.02</ele>
+        <time>2026-10-02T06:07:12.000Z</time>
+        <extensions>
+          <hotair:vsi>-1.68</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.007892" lon="15.944296">
+        <ele>581.62</ele>
+        <time>2026-10-02T06:07:22.000Z</time>
+      </trkpt>
+      <trkpt lat="47.007892" lon="15.944296">
+        <ele>581.62</ele>
+        <time>2026-10-02T06:07:22.000Z</time>
+        <extensions>
+          <hotair:vsi>-75.95</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.008156" lon="15.944272">
+        <ele>579.59</ele>
+        <time>2026-10-02T06:07:33.000Z</time>
+      </trkpt>
+      <trkpt lat="47.008156" lon="15.944272">
+        <ele>579.59</ele>
+        <time>2026-10-02T06:07:33.000Z</time>
+        <extensions>
+          <hotair:vsi>-83.69</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.008448" lon="15.944271">
+        <ele>573.75</ele>
+        <time>2026-10-02T06:07:44.000Z</time>
+      </trkpt>
+      <trkpt lat="47.008448" lon="15.944271">
+        <ele>573.75</ele>
+        <time>2026-10-02T06:07:44.000Z</time>
+        <extensions>
+          <hotair:vsi>-58.11</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.008736" lon="15.944240">
+        <ele>569.43</ele>
+        <time>2026-10-02T06:07:55.000Z</time>
+        <extensions>
+          <hotair:vsi>-115.0</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.009000" lon="15.944206">
+        <ele>557.79</ele>
+        <time>2026-10-02T06:08:06.000Z</time>
+      </trkpt>
+      <trkpt lat="47.009000" lon="15.944206">
+        <ele>557.79</ele>
+        <time>2026-10-02T06:08:06.000Z</time>
+        <extensions>
+          <hotair:vsi>-165.06</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.009266" lon="15.944190">
+        <ele>555.22</ele>
+        <time>2026-10-02T06:08:17.000Z</time>
+      </trkpt>
+      <trkpt lat="47.009266" lon="15.944190">
+        <ele>555.22</ele>
+        <time>2026-10-02T06:08:17.000Z</time>
+        <extensions>
+          <hotair:vsi>-84.58</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.009540" lon="15.944169">
+        <ele>557.86</ele>
+        <time>2026-10-02T06:08:27.000Z</time>
+        <extensions>
+          <hotair:vsi>-35.27</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.009768" lon="15.944134">
+        <ele>564.03</ele>
+        <time>2026-10-02T06:08:37.000Z</time>
+      </trkpt>
+      <trkpt lat="47.010054" lon="15.944092">
+        <ele>574.83</ele>
+        <time>2026-10-02T06:08:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.010350" lon="15.944067">
+        <ele>584.98</ele>
+        <time>2026-10-02T06:08:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.010654" lon="15.944048">
+        <ele>590.73</ele>
+        <time>2026-10-02T06:09:10.000Z</time>
+      </trkpt>
+      <trkpt lat="47.010654" lon="15.944048">
+        <ele>590.73</ele>
+        <time>2026-10-02T06:09:10.000Z</time>
+        <extensions>
+          <hotair:vsi>135.29</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.010909" lon="15.944014">
+        <ele>593.17</ele>
+        <time>2026-10-02T06:09:20.000Z</time>
+      </trkpt>
+      <trkpt lat="47.010909" lon="15.944014">
+        <ele>593.17</ele>
+        <time>2026-10-02T06:09:20.000Z</time>
+        <extensions>
+          <hotair:vsi>69.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.011181" lon="15.943983">
+        <ele>593.43</ele>
+        <time>2026-10-02T06:09:31.000Z</time>
+      </trkpt>
+      <trkpt lat="47.011181" lon="15.943983">
+        <ele>593.43</ele>
+        <time>2026-10-02T06:09:31.000Z</time>
+        <extensions>
+          <hotair:vsi>16.84</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.011460" lon="15.943963">
+        <ele>594.73</ele>
+        <time>2026-10-02T06:09:42.000Z</time>
+      </trkpt>
+      <trkpt lat="47.011460" lon="15.943963">
+        <ele>594.73</ele>
+        <time>2026-10-02T06:09:42.000Z</time>
+        <extensions>
+          <hotair:vsi>21.71</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.011720" lon="15.943934">
+        <ele>593.66</ele>
+        <time>2026-10-02T06:09:52.000Z</time>
+      </trkpt>
+      <trkpt lat="47.011720" lon="15.943934">
+        <ele>593.66</ele>
+        <time>2026-10-02T06:09:52.000Z</time>
+        <extensions>
+          <hotair:vsi>13.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.011979" lon="15.943888">
+        <ele>590.90</ele>
+        <time>2026-10-02T06:10:03.000Z</time>
+      </trkpt>
+      <trkpt lat="47.011979" lon="15.943888">
+        <ele>590.90</ele>
+        <time>2026-10-02T06:10:03.000Z</time>
+        <extensions>
+          <hotair:vsi>-39.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.012275" lon="15.943842">
+        <ele>589.78</ele>
+        <time>2026-10-02T06:10:14.000Z</time>
+      </trkpt>
+      <trkpt lat="47.012275" lon="15.943842">
+        <ele>589.78</ele>
+        <time>2026-10-02T06:10:14.000Z</time>
+        <extensions>
+          <hotair:vsi>-37.99</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.012538" lon="15.943817">
+        <ele>586.55</ele>
+        <time>2026-10-02T06:10:24.000Z</time>
+      </trkpt>
+      <trkpt lat="47.012538" lon="15.943817">
+        <ele>586.55</ele>
+        <time>2026-10-02T06:10:24.000Z</time>
+        <extensions>
+          <hotair:vsi>-43.67</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.012827" lon="15.943770">
+        <ele>585.94</ele>
+        <time>2026-10-02T06:10:35.000Z</time>
+      </trkpt>
+      <trkpt lat="47.012827" lon="15.943770">
+        <ele>585.94</ele>
+        <time>2026-10-02T06:10:35.000Z</time>
+        <extensions>
+          <hotair:vsi>-41.54</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.013111" lon="15.943735">
+        <ele>588.22</ele>
+        <time>2026-10-02T06:10:46.000Z</time>
+      </trkpt>
+      <trkpt lat="47.013376" lon="15.943697">
+        <ele>595.72</ele>
+        <time>2026-10-02T06:10:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.013376" lon="15.943697">
+        <ele>595.72</ele>
+        <time>2026-10-02T06:10:56.000Z</time>
+        <extensions>
+          <hotair:vsi>112.87</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.013618" lon="15.943684">
+        <ele>602.27</ele>
+        <time>2026-10-02T06:11:06.000Z</time>
+      </trkpt>
+      <trkpt lat="47.013618" lon="15.943684">
+        <ele>602.27</ele>
+        <time>2026-10-02T06:11:06.000Z</time>
+        <extensions>
+          <hotair:vsi>154.71</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.013885" lon="15.943663">
+        <ele>608.31</ele>
+        <time>2026-10-02T06:11:16.000Z</time>
+      </trkpt>
+      <trkpt lat="47.013885" lon="15.943663">
+        <ele>608.31</ele>
+        <time>2026-10-02T06:11:16.000Z</time>
+        <extensions>
+          <hotair:vsi>115.69</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.014152" lon="15.943639">
+        <ele>611.77</ele>
+        <time>2026-10-02T06:11:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.014429" lon="15.943607">
+        <ele>613.41</ele>
+        <time>2026-10-02T06:11:38.000Z</time>
+      </trkpt>
+      <trkpt lat="47.014681" lon="15.943593">
+        <ele>606.55</ele>
+        <time>2026-10-02T06:11:48.000Z</time>
+        <extensions>
+          <hotair:vsi>-57.44</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.014959" lon="15.943548">
+        <ele>601.66</ele>
+        <time>2026-10-02T06:11:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.014959" lon="15.943548">
+        <ele>601.66</ele>
+        <time>2026-10-02T06:11:59.000Z</time>
+        <extensions>
+          <hotair:vsi>-107.52</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.015233" lon="15.943577">
+        <ele>600.82</ele>
+        <time>2026-10-02T06:12:09.000Z</time>
+      </trkpt>
+      <trkpt lat="47.015233" lon="15.943577">
+        <ele>600.82</ele>
+        <time>2026-10-02T06:12:09.000Z</time>
+        <extensions>
+          <hotair:vsi>-50.64</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.015501" lon="15.943530">
+        <ele>605.88</ele>
+        <time>2026-10-02T06:12:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.015501" lon="15.943530">
+        <ele>605.88</ele>
+        <time>2026-10-02T06:12:19.000Z</time>
+        <extensions>
+          <hotair:vsi>26.99</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.015767" lon="15.943490">
+        <ele>614.58</ele>
+        <time>2026-10-02T06:12:29.000Z</time>
+      </trkpt>
+      <trkpt lat="47.016051" lon="15.943476">
+        <ele>618.65</ele>
+        <time>2026-10-02T06:12:40.000Z</time>
+      </trkpt>
+      <trkpt lat="47.016051" lon="15.943476">
+        <ele>618.65</ele>
+        <time>2026-10-02T06:12:40.000Z</time>
+        <extensions>
+          <hotair:vsi>109.16</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.016337" lon="15.943446">
+        <ele>625.30</ele>
+        <time>2026-10-02T06:12:51.000Z</time>
+      </trkpt>
+      <trkpt lat="47.016621" lon="15.943418">
+        <ele>625.73</ele>
+        <time>2026-10-02T06:13:02.000Z</time>
+      </trkpt>
+      <trkpt lat="47.016871" lon="15.943437">
+        <ele>616.74</ele>
+        <time>2026-10-02T06:13:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.017177" lon="15.943383">
+        <ele>609.65</ele>
+        <time>2026-10-02T06:13:23.000Z</time>
+      </trkpt>
+      <trkpt lat="47.017177" lon="15.943383">
+        <ele>609.65</ele>
+        <time>2026-10-02T06:13:23.000Z</time>
+        <extensions>
+          <hotair:vsi>-91.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.017434" lon="15.943376">
+        <ele>593.07</ele>
+        <time>2026-10-02T06:13:34.000Z</time>
+      </trkpt>
+      <trkpt lat="47.017434" lon="15.943376">
+        <ele>593.07</ele>
+        <time>2026-10-02T06:13:34.000Z</time>
+        <extensions>
+          <hotair:vsi>-212.51</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.017727" lon="15.943289">
+        <ele>595.24</ele>
+        <time>2026-10-02T06:13:44.000Z</time>
+      </trkpt>
+      <trkpt lat="47.017727" lon="15.943289">
+        <ele>595.24</ele>
+        <time>2026-10-02T06:13:44.000Z</time>
+        <extensions>
+          <hotair:vsi>-134.92</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.018015" lon="15.943246">
+        <ele>593.30</ele>
+        <time>2026-10-02T06:13:55.000Z</time>
+      </trkpt>
+      <trkpt lat="47.018308" lon="15.943203">
+        <ele>593.90</ele>
+        <time>2026-10-02T06:14:06.000Z</time>
+      </trkpt>
+      <trkpt lat="47.018308" lon="15.943203">
+        <ele>593.90</ele>
+        <time>2026-10-02T06:14:06.000Z</time>
+        <extensions>
+          <hotair:vsi>17.61</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.018570" lon="15.943153">
+        <ele>596.10</ele>
+        <time>2026-10-02T06:14:16.000Z</time>
+      </trkpt>
+      <trkpt lat="47.018570" lon="15.943153">
+        <ele>596.10</ele>
+        <time>2026-10-02T06:14:16.000Z</time>
+        <extensions>
+          <hotair:vsi>10.96</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.018829" lon="15.943112">
+        <ele>591.23</ele>
+        <time>2026-10-02T06:14:26.000Z</time>
+      </trkpt>
+      <trkpt lat="47.019123" lon="15.943072">
+        <ele>583.73</ele>
+        <time>2026-10-02T06:14:37.000Z</time>
+      </trkpt>
+      <trkpt lat="47.019386" lon="15.943029">
+        <ele>573.46</ele>
+        <time>2026-10-02T06:14:47.000Z</time>
+      </trkpt>
+      <trkpt lat="47.019386" lon="15.943029">
+        <ele>573.46</ele>
+        <time>2026-10-02T06:14:47.000Z</time>
+        <extensions>
+          <hotair:vsi>-153.16</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.019532" lon="15.942995">
+        <ele>563.75</ele>
+        <time>2026-10-02T06:15:01.000Z</time>
+        <extensions>
+          <hotair:vsi>-188.61</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.020033" lon="15.942946">
+        <ele>544.00</ele>
+        <time>2026-10-02T06:15:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.020033" lon="15.942946">
+        <ele>544.00</ele>
+        <time>2026-10-02T06:15:12.000Z</time>
+        <extensions>
+          <hotair:vsi>-237.76</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.020280" lon="15.942877">
+        <ele>537.79</ele>
+        <time>2026-10-02T06:15:23.000Z</time>
+      </trkpt>
+      <trkpt lat="47.020280" lon="15.942877">
+        <ele>537.79</ele>
+        <time>2026-10-02T06:15:23.000Z</time>
+        <extensions>
+          <hotair:vsi>-222.69</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.020505" lon="15.942833">
+        <ele>545.31</ele>
+        <time>2026-10-02T06:15:34.000Z</time>
+      </trkpt>
+      <trkpt lat="47.020691" lon="15.942786">
+        <ele>556.64</ele>
+        <time>2026-10-02T06:15:44.000Z</time>
+      </trkpt>
+      <trkpt lat="47.020691" lon="15.942786">
+        <ele>556.64</ele>
+        <time>2026-10-02T06:15:44.000Z</time>
+        <extensions>
+          <hotair:vsi>211.82</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.020990" lon="15.942753">
+        <ele>579.38</ele>
+        <time>2026-10-02T06:15:55.000Z</time>
+      </trkpt>
+      <trkpt lat="47.020990" lon="15.942753">
+        <ele>579.38</ele>
+        <time>2026-10-02T06:15:55.000Z</time>
+        <extensions>
+          <hotair:vsi>274.34</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.021348" lon="15.942645">
+        <ele>602.47</ele>
+        <time>2026-10-02T06:16:06.000Z</time>
+      </trkpt>
+      <trkpt lat="47.021348" lon="15.942645">
+        <ele>602.47</ele>
+        <time>2026-10-02T06:16:06.000Z</time>
+        <extensions>
+          <hotair:vsi>464.23</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.021710" lon="15.942583">
+        <ele>619.78</ele>
+        <time>2026-10-02T06:16:16.000Z</time>
+      </trkpt>
+      <trkpt lat="47.021710" lon="15.942583">
+        <ele>619.78</ele>
+        <time>2026-10-02T06:16:16.000Z</time>
+        <extensions>
+          <hotair:vsi>400.7</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.022121" lon="15.942474">
+        <ele>641.15</ele>
+        <time>2026-10-02T06:16:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.022121" lon="15.942474">
+        <ele>641.15</ele>
+        <time>2026-10-02T06:16:27.000Z</time>
+        <extensions>
+          <hotair:vsi>325.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.022519" lon="15.942468">
+        <ele>653.66</ele>
+        <time>2026-10-02T06:16:38.000Z</time>
+        <extensions>
+          <hotair:vsi>327.45</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.022841" lon="15.942470">
+        <ele>661.70</ele>
+        <time>2026-10-02T06:16:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.022841" lon="15.942470">
+        <ele>661.70</ele>
+        <time>2026-10-02T06:16:48.000Z</time>
+        <extensions>
+          <hotair:vsi>178.24</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.023143" lon="15.942519">
+        <ele>666.40</ele>
+        <time>2026-10-02T06:16:58.000Z</time>
+      </trkpt>
+      <trkpt lat="47.023143" lon="15.942519">
+        <ele>666.40</ele>
+        <time>2026-10-02T06:16:58.000Z</time>
+        <extensions>
+          <hotair:vsi>132.68</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.023400" lon="15.942550">
+        <ele>672.66</ele>
+        <time>2026-10-02T06:17:08.000Z</time>
+      </trkpt>
+      <trkpt lat="47.023400" lon="15.942550">
+        <ele>672.66</ele>
+        <time>2026-10-02T06:17:08.000Z</time>
+        <extensions>
+          <hotair:vsi>70.59</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.023694" lon="15.942607">
+        <ele>677.70</ele>
+        <time>2026-10-02T06:17:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.023694" lon="15.942607">
+        <ele>677.70</ele>
+        <time>2026-10-02T06:17:19.000Z</time>
+        <extensions>
+          <hotair:vsi>99.26</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.023935" lon="15.942697">
+        <ele>680.05</ele>
+        <time>2026-10-02T06:17:29.000Z</time>
+      </trkpt>
+      <trkpt lat="47.023935" lon="15.942697">
+        <ele>680.05</ele>
+        <time>2026-10-02T06:17:29.000Z</time>
+        <extensions>
+          <hotair:vsi>60.74</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.024154" lon="15.942729">
+        <ele>684.38</ele>
+        <time>2026-10-02T06:17:39.000Z</time>
+      </trkpt>
+      <trkpt lat="47.024154" lon="15.942729">
+        <ele>684.38</ele>
+        <time>2026-10-02T06:17:39.000Z</time>
+        <extensions>
+          <hotair:vsi>72.7</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.024386" lon="15.942822">
+        <ele>685.23</ele>
+        <time>2026-10-02T06:17:49.000Z</time>
+      </trkpt>
+      <trkpt lat="47.024386" lon="15.942822">
+        <ele>685.23</ele>
+        <time>2026-10-02T06:17:49.000Z</time>
+        <extensions>
+          <hotair:vsi>62.3</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.024584" lon="15.942882">
+        <ele>679.33</ele>
+        <time>2026-10-02T06:17:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.024827" lon="15.942932">
+        <ele>671.24</ele>
+        <time>2026-10-02T06:18:10.000Z</time>
+      </trkpt>
+      <trkpt lat="47.024827" lon="15.942932">
+        <ele>671.24</ele>
+        <time>2026-10-02T06:18:10.000Z</time>
+        <extensions>
+          <hotair:vsi>-123.11</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.025030" lon="15.942953">
+        <ele>657.75</ele>
+        <time>2026-10-02T06:18:20.000Z</time>
+      </trkpt>
+      <trkpt lat="47.025030" lon="15.942953">
+        <ele>657.75</ele>
+        <time>2026-10-02T06:18:20.000Z</time>
+        <extensions>
+          <hotair:vsi>-239.05</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.025277" lon="15.943018">
+        <ele>637.55</ele>
+        <time>2026-10-02T06:18:31.000Z</time>
+      </trkpt>
+      <trkpt lat="47.025277" lon="15.943018">
+        <ele>637.55</ele>
+        <time>2026-10-02T06:18:31.000Z</time>
+        <extensions>
+          <hotair:vsi>-304.77</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.025537" lon="15.943055">
+        <ele>618.52</ele>
+        <time>2026-10-02T06:18:42.000Z</time>
+      </trkpt>
+      <trkpt lat="47.025537" lon="15.943055">
+        <ele>618.52</ele>
+        <time>2026-10-02T06:18:42.000Z</time>
+        <extensions>
+          <hotair:vsi>-365.04</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.025784" lon="15.943026">
+        <ele>615.12</ele>
+        <time>2026-10-02T06:18:52.000Z</time>
+      </trkpt>
+      <trkpt lat="47.025784" lon="15.943026">
+        <ele>615.12</ele>
+        <time>2026-10-02T06:18:52.000Z</time>
+        <extensions>
+          <hotair:vsi>-205.11</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.026052" lon="15.943008">
+        <ele>607.65</ele>
+        <time>2026-10-02T06:19:03.000Z</time>
+      </trkpt>
+      <trkpt lat="47.026052" lon="15.943008">
+        <ele>607.65</ele>
+        <time>2026-10-02T06:19:03.000Z</time>
+        <extensions>
+          <hotair:vsi>-124.65</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.026301" lon="15.943001">
+        <ele>598.07</ele>
+        <time>2026-10-02T06:19:13.000Z</time>
+      </trkpt>
+      <trkpt lat="47.026301" lon="15.943001">
+        <ele>598.07</ele>
+        <time>2026-10-02T06:19:13.000Z</time>
+        <extensions>
+          <hotair:vsi>-136.95</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.026590" lon="15.942996">
+        <ele>590.14</ele>
+        <time>2026-10-02T06:19:24.000Z</time>
+      </trkpt>
+      <trkpt lat="47.026590" lon="15.942996">
+        <ele>590.14</ele>
+        <time>2026-10-02T06:19:24.000Z</time>
+        <extensions>
+          <hotair:vsi>-186.21</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.026866" lon="15.942979">
+        <ele>588.09</ele>
+        <time>2026-10-02T06:19:35.000Z</time>
+      </trkpt>
+      <trkpt lat="47.026866" lon="15.942979">
+        <ele>588.09</ele>
+        <time>2026-10-02T06:19:35.000Z</time>
+        <extensions>
+          <hotair:vsi>-66.91</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.027162" lon="15.942912">
+        <ele>585.73</ele>
+        <time>2026-10-02T06:19:46.000Z</time>
+      </trkpt>
+      <trkpt lat="47.027162" lon="15.942912">
+        <ele>585.73</ele>
+        <time>2026-10-02T06:19:46.000Z</time>
+        <extensions>
+          <hotair:vsi>-42.79</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.027397" lon="15.942861">
+        <ele>581.43</ele>
+        <time>2026-10-02T06:19:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.027397" lon="15.942861">
+        <ele>581.43</ele>
+        <time>2026-10-02T06:19:56.000Z</time>
+        <extensions>
+          <hotair:vsi>-57.15</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.027683" lon="15.942838">
+        <ele>576.34</ele>
+        <time>2026-10-02T06:20:07.000Z</time>
+      </trkpt>
+      <trkpt lat="47.027683" lon="15.942838">
+        <ele>576.34</ele>
+        <time>2026-10-02T06:20:07.000Z</time>
+        <extensions>
+          <hotair:vsi>-71.05</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.027980" lon="15.942775">
+        <ele>574.98</ele>
+        <time>2026-10-02T06:20:18.000Z</time>
+      </trkpt>
+      <trkpt lat="47.027980" lon="15.942775">
+        <ele>574.98</ele>
+        <time>2026-10-02T06:20:18.000Z</time>
+        <extensions>
+          <hotair:vsi>-52.91</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.028222" lon="15.942720">
+        <ele>574.59</ele>
+        <time>2026-10-02T06:20:28.000Z</time>
+      </trkpt>
+      <trkpt lat="47.028222" lon="15.942720">
+        <ele>574.59</ele>
+        <time>2026-10-02T06:20:28.000Z</time>
+        <extensions>
+          <hotair:vsi>-29.4</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.028520" lon="15.942661">
+        <ele>582.75</ele>
+        <time>2026-10-02T06:20:39.000Z</time>
+      </trkpt>
+      <trkpt lat="47.028520" lon="15.942661">
+        <ele>582.75</ele>
+        <time>2026-10-02T06:20:39.000Z</time>
+        <extensions>
+          <hotair:vsi>79.7</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.028766" lon="15.942604">
+        <ele>591.71</ele>
+        <time>2026-10-02T06:20:49.000Z</time>
+      </trkpt>
+      <trkpt lat="47.028766" lon="15.942604">
+        <ele>591.71</ele>
+        <time>2026-10-02T06:20:49.000Z</time>
+        <extensions>
+          <hotair:vsi>151.02</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.029056" lon="15.942580">
+        <ele>598.46</ele>
+        <time>2026-10-02T06:21:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.029056" lon="15.942580">
+        <ele>598.46</ele>
+        <time>2026-10-02T06:21:00.000Z</time>
+        <extensions>
+          <hotair:vsi>149.38</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.029357" lon="15.942536">
+        <ele>599.58</ele>
+        <time>2026-10-02T06:21:11.000Z</time>
+        <extensions>
+          <hotair:vsi>89.87</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.029625" lon="15.942489">
+        <ele>599.73</ele>
+        <time>2026-10-02T06:21:21.000Z</time>
+      </trkpt>
+      <trkpt lat="47.029625" lon="15.942489">
+        <ele>599.73</ele>
+        <time>2026-10-02T06:21:21.000Z</time>
+        <extensions>
+          <hotair:vsi>-12.85</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.029914" lon="15.942467">
+        <ele>591.41</ele>
+        <time>2026-10-02T06:21:32.000Z</time>
+      </trkpt>
+      <trkpt lat="47.029914" lon="15.942467">
+        <ele>591.41</ele>
+        <time>2026-10-02T06:21:32.000Z</time>
+        <extensions>
+          <hotair:vsi>-45.96</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.030207" lon="15.942423">
+        <ele>579.68</ele>
+        <time>2026-10-02T06:21:43.000Z</time>
+      </trkpt>
+      <trkpt lat="47.030207" lon="15.942423">
+        <ele>579.68</ele>
+        <time>2026-10-02T06:21:43.000Z</time>
+        <extensions>
+          <hotair:vsi>-224.56</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.030482" lon="15.942354">
+        <ele>569.67</ele>
+        <time>2026-10-02T06:21:54.000Z</time>
+      </trkpt>
+      <trkpt lat="47.030482" lon="15.942354">
+        <ele>569.67</ele>
+        <time>2026-10-02T06:21:54.000Z</time>
+        <extensions>
+          <hotair:vsi>-209.69</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.030711" lon="15.942314">
+        <ele>560.67</ele>
+        <time>2026-10-02T06:22:04.000Z</time>
+      </trkpt>
+      <trkpt lat="47.030711" lon="15.942314">
+        <ele>560.67</ele>
+        <time>2026-10-02T06:22:04.000Z</time>
+        <extensions>
+          <hotair:vsi>-175.57</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.030937" lon="15.942282">
+        <ele>554.23</ele>
+        <time>2026-10-02T06:22:15.000Z</time>
+        <extensions>
+          <hotair:vsi>-120.65</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.031186" lon="15.942234">
+        <ele>558.24</ele>
+        <time>2026-10-02T06:22:25.000Z</time>
+      </trkpt>
+      <trkpt lat="47.031186" lon="15.942234">
+        <ele>558.24</ele>
+        <time>2026-10-02T06:22:25.000Z</time>
+        <extensions>
+          <hotair:vsi>-26.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.031467" lon="15.942213">
+        <ele>564.72</ele>
+        <time>2026-10-02T06:22:36.000Z</time>
+      </trkpt>
+      <trkpt lat="47.031467" lon="15.942213">
+        <ele>564.72</ele>
+        <time>2026-10-02T06:22:36.000Z</time>
+        <extensions>
+          <hotair:vsi>104.76</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.031740" lon="15.942150">
+        <ele>567.23</ele>
+        <time>2026-10-02T06:22:47.000Z</time>
+      </trkpt>
+      <trkpt lat="47.031740" lon="15.942150">
+        <ele>567.23</ele>
+        <time>2026-10-02T06:22:47.000Z</time>
+        <extensions>
+          <hotair:vsi>74.41</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.031924" lon="15.942091">
+        <ele>565.78</ele>
+        <time>2026-10-02T06:22:57.000Z</time>
+      </trkpt>
+      <trkpt lat="47.032141" lon="15.942065">
+        <ele>564.78</ele>
+        <time>2026-10-02T06:23:07.000Z</time>
+      </trkpt>
+      <trkpt lat="47.032377" lon="15.942020">
+        <ele>559.55</ele>
+        <time>2026-10-02T06:23:18.000Z</time>
+      </trkpt>
+      <trkpt lat="47.032377" lon="15.942020">
+        <ele>559.55</ele>
+        <time>2026-10-02T06:23:18.000Z</time>
+        <extensions>
+          <hotair:vsi>-62.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.032580" lon="15.941986">
+        <ele>548.92</ele>
+        <time>2026-10-02T06:23:29.000Z</time>
+      </trkpt>
+      <trkpt lat="47.032580" lon="15.941986">
+        <ele>548.92</ele>
+        <time>2026-10-02T06:23:29.000Z</time>
+        <extensions>
+          <hotair:vsi>-159.42</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.032780" lon="15.941963">
+        <ele>541.93</ele>
+        <time>2026-10-02T06:23:40.000Z</time>
+      </trkpt>
+      <trkpt lat="47.032780" lon="15.941963">
+        <ele>541.93</ele>
+        <time>2026-10-02T06:23:40.000Z</time>
+        <extensions>
+          <hotair:vsi>-168.3</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.032957" lon="15.941942">
+        <ele>541.40</ele>
+        <time>2026-10-02T06:23:51.000Z</time>
+      </trkpt>
+      <trkpt lat="47.032957" lon="15.941942">
+        <ele>541.40</ele>
+        <time>2026-10-02T06:23:51.000Z</time>
+        <extensions>
+          <hotair:vsi>-80.33</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.033110" lon="15.941914">
+        <ele>553.42</ele>
+        <time>2026-10-02T06:24:02.000Z</time>
+        <extensions>
+          <hotair:vsi>137.31</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.033300" lon="15.941886">
+        <ele>567.10</ele>
+        <time>2026-10-02T06:24:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.033300" lon="15.941886">
+        <ele>567.10</ele>
+        <time>2026-10-02T06:24:12.000Z</time>
+        <extensions>
+          <hotair:vsi>223.73</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.033522" lon="15.941826">
+        <ele>576.11</ele>
+        <time>2026-10-02T06:24:23.000Z</time>
+        <extensions>
+          <hotair:vsi>256.5</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.033754" lon="15.941744">
+        <ele>579.92</ele>
+        <time>2026-10-02T06:24:33.000Z</time>
+      </trkpt>
+      <trkpt lat="47.033754" lon="15.941744">
+        <ele>579.92</ele>
+        <time>2026-10-02T06:24:33.000Z</time>
+        <extensions>
+          <hotair:vsi>107.25</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.033999" lon="15.941734">
+        <ele>585.58</ele>
+        <time>2026-10-02T06:24:43.000Z</time>
+      </trkpt>
+      <trkpt lat="47.033999" lon="15.941734">
+        <ele>585.58</ele>
+        <time>2026-10-02T06:24:43.000Z</time>
+        <extensions>
+          <hotair:vsi>87.7</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.034196" lon="15.941735">
+        <ele>587.49</ele>
+        <time>2026-10-02T06:24:53.000Z</time>
+      </trkpt>
+      <trkpt lat="47.034196" lon="15.941735">
+        <ele>587.49</ele>
+        <time>2026-10-02T06:24:53.000Z</time>
+        <extensions>
+          <hotair:vsi>77.8</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.034390" lon="15.941725">
+        <ele>582.09</ele>
+        <time>2026-10-02T06:25:04.000Z</time>
+        <extensions>
+          <hotair:vsi>-37.45</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.034592" lon="15.941735">
+        <ele>573.07</ele>
+        <time>2026-10-02T06:25:14.000Z</time>
+        <extensions>
+          <hotair:vsi>-132.85</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.034768" lon="15.941741">
+        <ele>559.64</ele>
+        <time>2026-10-02T06:25:24.000Z</time>
+      </trkpt>
+      <trkpt lat="47.034768" lon="15.941741">
+        <ele>559.64</ele>
+        <time>2026-10-02T06:25:24.000Z</time>
+        <extensions>
+          <hotair:vsi>-198.38</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.034957" lon="15.941729">
+        <ele>543.92</ele>
+        <time>2026-10-02T06:25:35.000Z</time>
+      </trkpt>
+      <trkpt lat="47.034957" lon="15.941729">
+        <ele>543.92</ele>
+        <time>2026-10-02T06:25:35.000Z</time>
+        <extensions>
+          <hotair:vsi>-292.97</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.035125" lon="15.941753">
+        <ele>526.39</ele>
+        <time>2026-10-02T06:25:46.000Z</time>
+        <extensions>
+          <hotair:vsi>-334.67</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.035238" lon="15.941773">
+        <ele>521.08</ele>
+        <time>2026-10-02T06:25:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.035238" lon="15.941773">
+        <ele>521.08</ele>
+        <time>2026-10-02T06:25:56.000Z</time>
+        <extensions>
+          <hotair:vsi>-218.42</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.035366" lon="15.941800">
+        <ele>534.22</ele>
+        <time>2026-10-02T06:26:07.000Z</time>
+        <extensions>
+          <hotair:vsi>96.14</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.035524" lon="15.941830">
+        <ele>548.05</ele>
+        <time>2026-10-02T06:26:18.000Z</time>
+      </trkpt>
+      <trkpt lat="47.035524" lon="15.941830">
+        <ele>548.05</ele>
+        <time>2026-10-02T06:26:18.000Z</time>
+        <extensions>
+          <hotair:vsi>272.28</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.035683" lon="15.941848">
+        <ele>556.16</ele>
+        <time>2026-10-02T06:26:28.000Z</time>
+      </trkpt>
+      <trkpt lat="47.035683" lon="15.941848">
+        <ele>556.16</ele>
+        <time>2026-10-02T06:26:28.000Z</time>
+        <extensions>
+          <hotair:vsi>228.96</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.035875" lon="15.941823">
+        <ele>566.07</ele>
+        <time>2026-10-02T06:26:39.000Z</time>
+      </trkpt>
+      <trkpt lat="47.035875" lon="15.941823">
+        <ele>566.07</ele>
+        <time>2026-10-02T06:26:39.000Z</time>
+        <extensions>
+          <hotair:vsi>137.82</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036030" lon="15.941802">
+        <ele>570.05</ele>
+        <time>2026-10-02T06:26:49.000Z</time>
+        <extensions>
+          <hotair:vsi>151.62</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036231" lon="15.941777">
+        <ele>574.07</ele>
+        <time>2026-10-02T06:27:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.036231" lon="15.941777">
+        <ele>574.07</ele>
+        <time>2026-10-02T06:27:00.000Z</time>
+        <extensions>
+          <hotair:vsi>48.81</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036389" lon="15.941764">
+        <ele>569.46</ele>
+        <time>2026-10-02T06:27:11.000Z</time>
+      </trkpt>
+      <trkpt lat="47.036389" lon="15.941764">
+        <ele>569.46</ele>
+        <time>2026-10-02T06:27:11.000Z</time>
+        <extensions>
+          <hotair:vsi>2.45</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036562" lon="15.941735">
+        <ele>566.71</ele>
+        <time>2026-10-02T06:27:22.000Z</time>
+      </trkpt>
+      <trkpt lat="47.036562" lon="15.941735">
+        <ele>566.71</ele>
+        <time>2026-10-02T06:27:22.000Z</time>
+        <extensions>
+          <hotair:vsi>-67.1</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036701" lon="15.941730">
+        <ele>560.08</ele>
+        <time>2026-10-02T06:27:32.000Z</time>
+      </trkpt>
+      <trkpt lat="47.036701" lon="15.941730">
+        <ele>560.08</ele>
+        <time>2026-10-02T06:27:32.000Z</time>
+        <extensions>
+          <hotair:vsi>-78.35</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036839" lon="15.941698">
+        <ele>550.92</ele>
+        <time>2026-10-02T06:27:43.000Z</time>
+      </trkpt>
+      <trkpt lat="47.036839" lon="15.941698">
+        <ele>550.92</ele>
+        <time>2026-10-02T06:27:43.000Z</time>
+        <extensions>
+          <hotair:vsi>-183.92</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.036971" lon="15.941735">
+        <ele>551.64</ele>
+        <time>2026-10-02T06:27:54.000Z</time>
+      </trkpt>
+      <trkpt lat="47.037117" lon="15.941670">
+        <ele>564.50</ele>
+        <time>2026-10-02T06:28:04.000Z</time>
+      </trkpt>
+      <trkpt lat="47.037117" lon="15.941670">
+        <ele>564.50</ele>
+        <time>2026-10-02T06:28:04.000Z</time>
+        <extensions>
+          <hotair:vsi>95.7</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.037279" lon="15.941666">
+        <ele>577.76</ele>
+        <time>2026-10-02T06:28:15.000Z</time>
+      </trkpt>
+      <trkpt lat="47.037487" lon="15.941593">
+        <ele>585.40</ele>
+        <time>2026-10-02T06:28:26.000Z</time>
+      </trkpt>
+      <trkpt lat="47.037487" lon="15.941593">
+        <ele>585.40</ele>
+        <time>2026-10-02T06:28:26.000Z</time>
+        <extensions>
+          <hotair:vsi>182.17</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.037723" lon="15.941549">
+        <ele>589.19</ele>
+        <time>2026-10-02T06:28:37.000Z</time>
+      </trkpt>
+      <trkpt lat="47.037991" lon="15.941523">
+        <ele>591.99</ele>
+        <time>2026-10-02T06:28:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.037991" lon="15.941523">
+        <ele>591.99</ele>
+        <time>2026-10-02T06:28:48.000Z</time>
+        <extensions>
+          <hotair:vsi>72.61</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.038212" lon="15.941534">
+        <ele>589.38</ele>
+        <time>2026-10-02T06:28:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.038212" lon="15.941534">
+        <ele>589.38</ele>
+        <time>2026-10-02T06:28:59.000Z</time>
+        <extensions>
+          <hotair:vsi>-11.13</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.038388" lon="15.941541">
+        <ele>581.09</ele>
+        <time>2026-10-02T06:29:09.000Z</time>
+      </trkpt>
+      <trkpt lat="47.038388" lon="15.941541">
+        <ele>581.09</ele>
+        <time>2026-10-02T06:29:09.000Z</time>
+        <extensions>
+          <hotair:vsi>-102.51</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.038608" lon="15.941554">
+        <ele>570.42</ele>
+        <time>2026-10-02T06:29:20.000Z</time>
+      </trkpt>
+      <trkpt lat="47.038608" lon="15.941554">
+        <ele>570.42</ele>
+        <time>2026-10-02T06:29:20.000Z</time>
+        <extensions>
+          <hotair:vsi>-172.62</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.038819" lon="15.941567">
+        <ele>556.88</ele>
+        <time>2026-10-02T06:29:31.000Z</time>
+      </trkpt>
+      <trkpt lat="47.038819" lon="15.941567">
+        <ele>556.88</ele>
+        <time>2026-10-02T06:29:31.000Z</time>
+        <extensions>
+          <hotair:vsi>-239.04</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.038985" lon="15.941591">
+        <ele>537.76</ele>
+        <time>2026-10-02T06:29:42.000Z</time>
+        <extensions>
+          <hotair:vsi>-279.78</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039172" lon="15.941633">
+        <ele>532.15</ele>
+        <time>2026-10-02T06:29:53.000Z</time>
+        <extensions>
+          <hotair:vsi>-237.84</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039307" lon="15.941649">
+        <ele>529.17</ele>
+        <time>2026-10-02T06:30:03.000Z</time>
+      </trkpt>
+      <trkpt lat="47.039307" lon="15.941649">
+        <ele>529.17</ele>
+        <time>2026-10-02T06:30:03.000Z</time>
+        <extensions>
+          <hotair:vsi>-116.05</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039432" lon="15.941686">
+        <ele>530.98</ele>
+        <time>2026-10-02T06:30:14.000Z</time>
+      </trkpt>
+      <trkpt lat="47.039528" lon="15.941716">
+        <ele>533.91</ele>
+        <time>2026-10-02T06:30:24.000Z</time>
+      </trkpt>
+      <trkpt lat="47.039528" lon="15.941716">
+        <ele>533.91</ele>
+        <time>2026-10-02T06:30:24.000Z</time>
+        <extensions>
+          <hotair:vsi>76.91</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039594" lon="15.941707">
+        <ele>531.59</ele>
+        <time>2026-10-02T06:30:35.000Z</time>
+      </trkpt>
+      <trkpt lat="47.039594" lon="15.941707">
+        <ele>531.59</ele>
+        <time>2026-10-02T06:30:35.000Z</time>
+        <extensions>
+          <hotair:vsi>60.53</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039762" lon="15.941763">
+        <ele>547.41</ele>
+        <time>2026-10-02T06:30:46.000Z</time>
+        <extensions>
+          <hotair:vsi>158.1</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039855" lon="15.941800">
+        <ele>551.11</ele>
+        <time>2026-10-02T06:30:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.039855" lon="15.941800">
+        <ele>551.11</ele>
+        <time>2026-10-02T06:30:56.000Z</time>
+        <extensions>
+          <hotair:vsi>140.91</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.039995" lon="15.941884">
+        <ele>550.32</ele>
+        <time>2026-10-02T06:31:06.000Z</time>
+      </trkpt>
+      <trkpt lat="47.039995" lon="15.941884">
+        <ele>550.32</ele>
+        <time>2026-10-02T06:31:06.000Z</time>
+        <extensions>
+          <hotair:vsi>80.28</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040094" lon="15.941908">
+        <ele>548.19</ele>
+        <time>2026-10-02T06:31:17.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040094" lon="15.941908">
+        <ele>548.19</ele>
+        <time>2026-10-02T06:31:17.000Z</time>
+        <extensions>
+          <hotair:vsi>-95.3</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040206" lon="15.941947">
+        <ele>543.15</ele>
+        <time>2026-10-02T06:31:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040206" lon="15.941947">
+        <ele>543.15</ele>
+        <time>2026-10-02T06:31:27.000Z</time>
+        <extensions>
+          <hotair:vsi>-74.65</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040318" lon="15.942010">
+        <ele>537.95</ele>
+        <time>2026-10-02T06:31:38.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040318" lon="15.942010">
+        <ele>537.95</ele>
+        <time>2026-10-02T06:31:38.000Z</time>
+        <extensions>
+          <hotair:vsi>-104.52</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040421" lon="15.942052">
+        <ele>537.93</ele>
+        <time>2026-10-02T06:31:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040421" lon="15.942052">
+        <ele>537.93</ele>
+        <time>2026-10-02T06:31:48.000Z</time>
+        <extensions>
+          <hotair:vsi>-73.14</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040519" lon="15.942095">
+        <ele>534.00</ele>
+        <time>2026-10-02T06:31:58.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040519" lon="15.942095">
+        <ele>534.00</ele>
+        <time>2026-10-02T06:31:58.000Z</time>
+        <extensions>
+          <hotair:vsi>-9.67</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040618" lon="15.942149">
+        <ele>530.61</ele>
+        <time>2026-10-02T06:32:09.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040692" lon="15.942206">
+        <ele>522.39</ele>
+        <time>2026-10-02T06:32:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040774" lon="15.942306">
+        <ele>512.31</ele>
+        <time>2026-10-02T06:32:30.000Z</time>
+        <extensions>
+          <hotair:vsi>-210.11</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.040802" lon="15.942289">
+        <ele>490.07</ele>
+        <time>2026-10-02T06:32:40.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040890" lon="15.942394">
+        <ele>482.45</ele>
+        <time>2026-10-02T06:32:50.000Z</time>
+      </trkpt>
+      <trkpt lat="47.040941" lon="15.942495">
+        <ele>478.61</ele>
+        <time>2026-10-02T06:33:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.041051" lon="15.942603">
+        <ele>488.55</ele>
+        <time>2026-10-02T06:33:11.000Z</time>
+      </trkpt>
+      <trkpt lat="47.041079" lon="15.942690">
+        <ele>505.39</ele>
+        <time>2026-10-02T06:33:22.000Z</time>
+      </trkpt>
+      <trkpt lat="47.041199" lon="15.942726">
+        <ele>534.74</ele>
+        <time>2026-10-02T06:33:32.000Z</time>
+      </trkpt>
+      <trkpt lat="47.041199" lon="15.942726">
+        <ele>534.74</ele>
+        <time>2026-10-02T06:33:32.000Z</time>
+        <extensions>
+          <hotair:vsi>497.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.041443" lon="15.942730">
+        <ele>560.79</ele>
+        <time>2026-10-02T06:33:43.000Z</time>
+      </trkpt>
+      <trkpt lat="47.041443" lon="15.942730">
+        <ele>560.79</ele>
+        <time>2026-10-02T06:33:43.000Z</time>
+        <extensions>
+          <hotair:vsi>533.67</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.041722" lon="15.942708">
+        <ele>578.62</ele>
+        <time>2026-10-02T06:33:54.000Z</time>
+      </trkpt>
+      <trkpt lat="47.041722" lon="15.942708">
+        <ele>578.62</ele>
+        <time>2026-10-02T06:33:54.000Z</time>
+        <extensions>
+          <hotair:vsi>397.74</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042052" lon="15.942677">
+        <ele>600.11</ele>
+        <time>2026-10-02T06:34:05.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042052" lon="15.942677">
+        <ele>600.11</ele>
+        <time>2026-10-02T06:34:05.000Z</time>
+        <extensions>
+          <hotair:vsi>350.5</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042425" lon="15.942656">
+        <ele>619.37</ele>
+        <time>2026-10-02T06:34:16.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042425" lon="15.942656">
+        <ele>619.37</ele>
+        <time>2026-10-02T06:34:16.000Z</time>
+        <extensions>
+          <hotair:vsi>323.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042774" lon="15.942632">
+        <ele>632.01</ele>
+        <time>2026-10-02T06:34:26.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042774" lon="15.942632">
+        <ele>632.01</ele>
+        <time>2026-10-02T06:34:26.000Z</time>
+        <extensions>
+          <hotair:vsi>333.02</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043151" lon="15.942639">
+        <ele>638.67</ele>
+        <time>2026-10-02T06:34:37.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043151" lon="15.942639">
+        <ele>638.67</ele>
+        <time>2026-10-02T06:34:37.000Z</time>
+        <extensions>
+          <hotair:vsi>174.95</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043487" lon="15.942675">
+        <ele>641.99</ele>
+        <time>2026-10-02T06:34:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043487" lon="15.942675">
+        <ele>641.99</ele>
+        <time>2026-10-02T06:34:48.000Z</time>
+        <extensions>
+          <hotair:vsi>72.68</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043782" lon="15.942686">
+        <ele>637.84</ele>
+        <time>2026-10-02T06:34:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043782" lon="15.942686">
+        <ele>637.84</ele>
+        <time>2026-10-02T06:34:59.000Z</time>
+        <extensions>
+          <hotair:vsi>-43.89</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044041" lon="15.942700">
+        <ele>633.92</ele>
+        <time>2026-10-02T06:35:09.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044041" lon="15.942700">
+        <ele>633.92</ele>
+        <time>2026-10-02T06:35:09.000Z</time>
+        <extensions>
+          <hotair:vsi>-61.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044317" lon="15.942742">
+        <ele>617.20</ele>
+        <time>2026-10-02T06:35:20.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044317" lon="15.942742">
+        <ele>617.20</ele>
+        <time>2026-10-02T06:35:20.000Z</time>
+        <extensions>
+          <hotair:vsi>-190.46</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044581" lon="15.942742">
+        <ele>590.64</ele>
+        <time>2026-10-02T06:35:30.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044825" lon="15.942752">
+        <ele>565.24</ele>
+        <time>2026-10-02T06:35:40.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044825" lon="15.942752">
+        <ele>565.24</ele>
+        <time>2026-10-02T06:35:40.000Z</time>
+        <extensions>
+          <hotair:vsi>-536.52</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045178" lon="15.942695">
+        <ele>536.42</ele>
+        <time>2026-10-02T06:35:51.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045178" lon="15.942695">
+        <ele>536.42</ele>
+        <time>2026-10-02T06:35:51.000Z</time>
+        <extensions>
+          <hotair:vsi>-512.03</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045386" lon="15.942726">
+        <ele>511.21</ele>
+        <time>2026-10-02T06:36:01.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045386" lon="15.942726">
+        <ele>511.21</ele>
+        <time>2026-10-02T06:36:01.000Z</time>
+        <extensions>
+          <hotair:vsi>-522.76</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045488" lon="15.942821">
+        <ele>484.41</ele>
+        <time>2026-10-02T06:36:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045488" lon="15.942821">
+        <ele>484.41</ele>
+        <time>2026-10-02T06:36:12.000Z</time>
+        <extensions>
+          <hotair:vsi>-474.57</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045559" lon="15.942945">
+        <ele>454.41</ele>
+        <time>2026-10-02T06:36:23.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045559" lon="15.942945">
+        <ele>454.41</ele>
+        <time>2026-10-02T06:36:23.000Z</time>
+        <extensions>
+          <hotair:vsi>-530.63</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045528" lon="15.943024">
+        <ele>428.03</ele>
+        <time>2026-10-02T06:36:34.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045528" lon="15.943024">
+        <ele>428.03</ele>
+        <time>2026-10-02T06:36:34.000Z</time>
+        <extensions>
+          <hotair:vsi>-489.84</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045418" lon="15.943040">
+        <ele>404.15</ele>
+        <time>2026-10-02T06:36:45.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045418" lon="15.943040">
+        <ele>404.15</ele>
+        <time>2026-10-02T06:36:45.000Z</time>
+        <extensions>
+          <hotair:vsi>-462.8</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045266" lon="15.943256">
+        <ele>385.70</ele>
+        <time>2026-10-02T06:36:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045266" lon="15.943256">
+        <ele>385.70</ele>
+        <time>2026-10-02T06:36:56.000Z</time>
+        <extensions>
+          <hotair:vsi>-360.19</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045140" lon="15.943563">
+        <ele>372.29</ele>
+        <time>2026-10-02T06:37:07.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045140" lon="15.943563">
+        <ele>372.29</ele>
+        <time>2026-10-02T06:37:07.000Z</time>
+        <extensions>
+          <hotair:vsi>-288.02</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.045032" lon="15.943824">
+        <ele>360.67</ele>
+        <time>2026-10-02T06:37:18.000Z</time>
+      </trkpt>
+      <trkpt lat="47.045032" lon="15.943824">
+        <ele>360.67</ele>
+        <time>2026-10-02T06:37:18.000Z</time>
+        <extensions>
+          <hotair:vsi>-205.89</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044946" lon="15.944105">
+        <ele>356.55</ele>
+        <time>2026-10-02T06:37:28.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044946" lon="15.944105">
+        <ele>356.55</ele>
+        <time>2026-10-02T06:37:28.000Z</time>
+        <extensions>
+          <hotair:vsi>-166.51</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044868" lon="15.944388">
+        <ele>352.87</ele>
+        <time>2026-10-02T06:37:39.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044868" lon="15.944388">
+        <ele>352.87</ele>
+        <time>2026-10-02T06:37:39.000Z</time>
+        <extensions>
+          <hotair:vsi>-61.35</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044828" lon="15.944653">
+        <ele>350.49</ele>
+        <time>2026-10-02T06:37:49.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044828" lon="15.944653">
+        <ele>350.49</ele>
+        <time>2026-10-02T06:37:49.000Z</time>
+        <extensions>
+          <hotair:vsi>-81.26</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044755" lon="15.944960">
+        <ele>353.95</ele>
+        <time>2026-10-02T06:38:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044718" lon="15.945261">
+        <ele>349.24</ele>
+        <time>2026-10-02T06:38:11.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044718" lon="15.945261">
+        <ele>349.24</ele>
+        <time>2026-10-02T06:38:11.000Z</time>
+        <extensions>
+          <hotair:vsi>-16.72</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044694" lon="15.945596">
+        <ele>339.62</ele>
+        <time>2026-10-02T06:38:22.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044694" lon="15.945596">
+        <ele>339.62</ele>
+        <time>2026-10-02T06:38:22.000Z</time>
+        <extensions>
+          <hotair:vsi>-98.39</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044632" lon="15.945802">
+        <ele>332.33</ele>
+        <time>2026-10-02T06:38:32.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044632" lon="15.945802">
+        <ele>332.33</ele>
+        <time>2026-10-02T06:38:32.000Z</time>
+        <extensions>
+          <hotair:vsi>-165.01</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044610" lon="15.946020">
+        <ele>322.52</ele>
+        <time>2026-10-02T06:38:42.000Z</time>
+        <extensions>
+          <hotair:vsi>-187.09</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044563" lon="15.946240">
+        <ele>311.92</ele>
+        <time>2026-10-02T06:38:53.000Z</time>
+        <extensions>
+          <hotair:vsi>-208.15</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044522" lon="15.946393">
+        <ele>306.56</ele>
+        <time>2026-10-02T06:39:03.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044522" lon="15.946393">
+        <ele>306.56</ele>
+        <time>2026-10-02T06:39:03.000Z</time>
+        <extensions>
+          <hotair:vsi>-151.75</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044482" lon="15.946556">
+        <ele>305.40</ele>
+        <time>2026-10-02T06:39:14.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044482" lon="15.946556">
+        <ele>305.40</ele>
+        <time>2026-10-02T06:39:14.000Z</time>
+        <extensions>
+          <hotair:vsi>-37.51</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044437" lon="15.946682">
+        <ele>305.15</ele>
+        <time>2026-10-02T06:39:25.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044437" lon="15.946682">
+        <ele>305.15</ele>
+        <time>2026-10-02T06:39:25.000Z</time>
+        <extensions>
+          <hotair:vsi>7.02</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044396" lon="15.946820">
+        <ele>310.31</ele>
+        <time>2026-10-02T06:39:36.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044396" lon="15.946820">
+        <ele>310.31</ele>
+        <time>2026-10-02T06:39:36.000Z</time>
+        <extensions>
+          <hotair:vsi>55.96</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044362" lon="15.946945">
+        <ele>310.55</ele>
+        <time>2026-10-02T06:39:46.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044362" lon="15.946945">
+        <ele>310.55</ele>
+        <time>2026-10-02T06:39:46.000Z</time>
+        <extensions>
+          <hotair:vsi>42.0</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044344" lon="15.947134">
+        <ele>303.70</ele>
+        <time>2026-10-02T06:39:57.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044344" lon="15.947134">
+        <ele>303.70</ele>
+        <time>2026-10-02T06:39:57.000Z</time>
+        <extensions>
+          <hotair:vsi>-86.93</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044296" lon="15.947177">
+        <ele>302.84</ele>
+        <time>2026-10-02T06:40:07.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044296" lon="15.947177">
+        <ele>302.84</ele>
+        <time>2026-10-02T06:40:07.000Z</time>
+        <extensions>
+          <hotair:vsi>-51.92</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044261" lon="15.947250">
+        <ele>302.83</ele>
+        <time>2026-10-02T06:40:17.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044261" lon="15.947250">
+        <ele>302.83</ele>
+        <time>2026-10-02T06:40:17.000Z</time>
+        <extensions>
+          <hotair:vsi>-34.33</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044221" lon="15.947326">
+        <ele>302.27</ele>
+        <time>2026-10-02T06:40:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044221" lon="15.947326">
+        <ele>302.27</ele>
+        <time>2026-10-02T06:40:27.000Z</time>
+        <extensions>
+          <hotair:vsi>3.5</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044180" lon="15.947446">
+        <ele>308.25</ele>
+        <time>2026-10-02T06:40:38.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044180" lon="15.947446">
+        <ele>308.25</ele>
+        <time>2026-10-02T06:40:38.000Z</time>
+        <extensions>
+          <hotair:vsi>60.9</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044130" lon="15.947558">
+        <ele>309.53</ele>
+        <time>2026-10-02T06:40:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044130" lon="15.947558">
+        <ele>309.53</ele>
+        <time>2026-10-02T06:40:48.000Z</time>
+        <extensions>
+          <hotair:vsi>91.24</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044097" lon="15.947659">
+        <ele>301.51</ele>
+        <time>2026-10-02T06:40:58.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044097" lon="15.947659">
+        <ele>301.51</ele>
+        <time>2026-10-02T06:40:58.000Z</time>
+        <extensions>
+          <hotair:vsi>-69.8</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044068" lon="15.947777">
+        <ele>292.25</ele>
+        <time>2026-10-02T06:41:08.000Z</time>
+        <extensions>
+          <hotair:vsi>-183.89</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044052" lon="15.947865">
+        <ele>292.01</ele>
+        <time>2026-10-02T06:41:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044052" lon="15.947865">
+        <ele>292.01</ele>
+        <time>2026-10-02T06:41:19.000Z</time>
+        <extensions>
+          <hotair:vsi>-100.26</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044034" lon="15.947922">
+        <ele>290.38</ele>
+        <time>2026-10-02T06:41:30.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044033" lon="15.947995">
+        <ele>289.16</ele>
+        <time>2026-10-02T06:41:41.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044033" lon="15.947995">
+        <ele>289.16</ele>
+        <time>2026-10-02T06:41:41.000Z</time>
+        <extensions>
+          <hotair:vsi>-29.98</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044033" lon="15.948056">
+        <ele>285.13</ele>
+        <time>2026-10-02T06:41:51.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044044" lon="15.948140">
+        <ele>286.01</ele>
+        <time>2026-10-02T06:42:02.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044044" lon="15.948140">
+        <ele>286.01</ele>
+        <time>2026-10-02T06:42:02.000Z</time>
+        <extensions>
+          <hotair:vsi>-10.85</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044047" lon="15.948201">
+        <ele>286.46</ele>
+        <time>2026-10-02T06:42:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044047" lon="15.948201">
+        <ele>286.46</ele>
+        <time>2026-10-02T06:42:12.000Z</time>
+        <extensions>
+          <hotair:vsi>-1.71</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044044" lon="15.948290">
+        <ele>287.38</ele>
+        <time>2026-10-02T06:42:23.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044044" lon="15.948290">
+        <ele>287.38</ele>
+        <time>2026-10-02T06:42:23.000Z</time>
+        <extensions>
+          <hotair:vsi>22.06</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044046" lon="15.948362">
+        <ele>288.16</ele>
+        <time>2026-10-02T06:42:33.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044046" lon="15.948362">
+        <ele>288.16</ele>
+        <time>2026-10-02T06:42:33.000Z</time>
+        <extensions>
+          <hotair:vsi>28.16</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044047" lon="15.948450">
+        <ele>287.64</ele>
+        <time>2026-10-02T06:42:44.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044047" lon="15.948450">
+        <ele>287.64</ele>
+        <time>2026-10-02T06:42:44.000Z</time>
+        <extensions>
+          <hotair:vsi>-20.23</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044052" lon="15.948535">
+        <ele>286.63</ele>
+        <time>2026-10-02T06:42:55.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044052" lon="15.948535">
+        <ele>286.63</ele>
+        <time>2026-10-02T06:42:55.000Z</time>
+        <extensions>
+          <hotair:vsi>-19.53</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044058" lon="15.948611">
+        <ele>285.75</ele>
+        <time>2026-10-02T06:43:05.000Z</time>
+        <extensions>
+          <hotair:vsi>-3.16</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044047" lon="15.948712">
+        <ele>286.64</ele>
+        <time>2026-10-02T06:43:16.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044047" lon="15.948712">
+        <ele>286.64</ele>
+        <time>2026-10-02T06:43:16.000Z</time>
+        <extensions>
+          <hotair:vsi>2.0</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044048" lon="15.948784">
+        <ele>285.25</ele>
+        <time>2026-10-02T06:43:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044048" lon="15.948784">
+        <ele>285.25</ele>
+        <time>2026-10-02T06:43:27.000Z</time>
+        <extensions>
+          <hotair:vsi>-4.79</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044061" lon="15.948861">
+        <ele>286.24</ele>
+        <time>2026-10-02T06:43:37.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044061" lon="15.948861">
+        <ele>286.24</ele>
+        <time>2026-10-02T06:43:37.000Z</time>
+        <extensions>
+          <hotair:vsi>-13.46</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044064" lon="15.948932">
+        <ele>285.61</ele>
+        <time>2026-10-02T06:43:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044071" lon="15.948988">
+        <ele>285.73</ele>
+        <time>2026-10-02T06:43:59.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044071" lon="15.948988">
+        <ele>285.73</ele>
+        <time>2026-10-02T06:43:59.000Z</time>
+        <extensions>
+          <hotair:vsi>15.9</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044081" lon="15.949061">
+        <ele>288.37</ele>
+        <time>2026-10-02T06:44:09.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044081" lon="15.949061">
+        <ele>288.37</ele>
+        <time>2026-10-02T06:44:09.000Z</time>
+        <extensions>
+          <hotair:vsi>6.61</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044069" lon="15.949133">
+        <ele>301.05</ele>
+        <time>2026-10-02T06:44:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044069" lon="15.949133">
+        <ele>301.05</ele>
+        <time>2026-10-02T06:44:19.000Z</time>
+        <extensions>
+          <hotair:vsi>138.94</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044045" lon="15.949220">
+        <ele>314.50</ele>
+        <time>2026-10-02T06:44:29.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044045" lon="15.949220">
+        <ele>314.50</ele>
+        <time>2026-10-02T06:44:29.000Z</time>
+        <extensions>
+          <hotair:vsi>266.0</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044010" lon="15.949330">
+        <ele>322.90</ele>
+        <time>2026-10-02T06:44:40.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044010" lon="15.949330">
+        <ele>322.90</ele>
+        <time>2026-10-02T06:44:40.000Z</time>
+        <extensions>
+          <hotair:vsi>212.68</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043993" lon="15.949457">
+        <ele>329.20</ele>
+        <time>2026-10-02T06:44:51.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043993" lon="15.949457">
+        <ele>329.20</ele>
+        <time>2026-10-02T06:44:51.000Z</time>
+        <extensions>
+          <hotair:vsi>117.44</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.044003" lon="15.949582">
+        <ele>332.39</ele>
+        <time>2026-10-02T06:45:01.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044007" lon="15.949713">
+        <ele>331.62</ele>
+        <time>2026-10-02T06:45:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.044007" lon="15.949713">
+        <ele>331.62</ele>
+        <time>2026-10-02T06:45:12.000Z</time>
+        <extensions>
+          <hotair:vsi>8.85</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043991" lon="15.949846">
+        <ele>328.97</ele>
+        <time>2026-10-02T06:45:22.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043991" lon="15.949846">
+        <ele>328.97</ele>
+        <time>2026-10-02T06:45:22.000Z</time>
+        <extensions>
+          <hotair:vsi>-44.49</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043994" lon="15.949943">
+        <ele>323.64</ele>
+        <time>2026-10-02T06:45:33.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043994" lon="15.949943">
+        <ele>323.64</ele>
+        <time>2026-10-02T06:45:33.000Z</time>
+        <extensions>
+          <hotair:vsi>-61.72</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043960" lon="15.950050">
+        <ele>315.86</ele>
+        <time>2026-10-02T06:45:44.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043960" lon="15.950050">
+        <ele>315.86</ele>
+        <time>2026-10-02T06:45:44.000Z</time>
+        <extensions>
+          <hotair:vsi>-116.2</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043920" lon="15.950164">
+        <ele>308.57</ele>
+        <time>2026-10-02T06:45:55.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043920" lon="15.950164">
+        <ele>308.57</ele>
+        <time>2026-10-02T06:45:55.000Z</time>
+        <extensions>
+          <hotair:vsi>-144.08</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043907" lon="15.950249">
+        <ele>300.25</ele>
+        <time>2026-10-02T06:46:05.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043907" lon="15.950249">
+        <ele>300.25</ele>
+        <time>2026-10-02T06:46:05.000Z</time>
+        <extensions>
+          <hotair:vsi>-142.01</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043887" lon="15.950342">
+        <ele>294.95</ele>
+        <time>2026-10-02T06:46:16.000Z</time>
+        <extensions>
+          <hotair:vsi>-145.36</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043867" lon="15.950427">
+        <ele>291.09</ele>
+        <time>2026-10-02T06:46:27.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043867" lon="15.950427">
+        <ele>291.09</ele>
+        <time>2026-10-02T06:46:27.000Z</time>
+        <extensions>
+          <hotair:vsi>-91.32</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043862" lon="15.950508">
+        <ele>290.59</ele>
+        <time>2026-10-02T06:46:37.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043863" lon="15.950558">
+        <ele>288.76</ele>
+        <time>2026-10-02T06:46:48.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043863" lon="15.950558">
+        <ele>288.76</ele>
+        <time>2026-10-02T06:46:48.000Z</time>
+        <extensions>
+          <hotair:vsi>-32.0</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043866" lon="15.950595">
+        <ele>288.40</ele>
+        <time>2026-10-02T06:46:58.000Z</time>
+        <extensions>
+          <hotair:vsi>5.15</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043859" lon="15.950595">
+        <ele>289.82</ele>
+        <time>2026-10-02T06:47:08.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043859" lon="15.950595">
+        <ele>289.82</ele>
+        <time>2026-10-02T06:47:08.000Z</time>
+        <extensions>
+          <hotair:vsi>-3.44</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043853" lon="15.950590">
+        <ele>288.33</ele>
+        <time>2026-10-02T06:47:19.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043853" lon="15.950590">
+        <ele>288.33</ele>
+        <time>2026-10-02T06:47:19.000Z</time>
+        <extensions>
+          <hotair:vsi>-6.11</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043863" lon="15.950598">
+        <ele>289.91</ele>
+        <time>2026-10-02T06:47:29.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043863" lon="15.950598">
+        <ele>289.91</ele>
+        <time>2026-10-02T06:47:29.000Z</time>
+        <extensions>
+          <hotair:vsi>21.07</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043847" lon="15.950605">
+        <ele>288.48</ele>
+        <time>2026-10-02T06:47:39.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043854" lon="15.950622">
+        <ele>286.51</ele>
+        <time>2026-10-02T06:47:50.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043854" lon="15.950622">
+        <ele>286.51</ele>
+        <time>2026-10-02T06:47:50.000Z</time>
+        <extensions>
+          <hotair:vsi>-44.63</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043841" lon="15.950655">
+        <ele>288.78</ele>
+        <time>2026-10-02T06:48:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043841" lon="15.950655">
+        <ele>288.78</ele>
+        <time>2026-10-02T06:48:00.000Z</time>
+        <extensions>
+          <hotair:vsi>10.71</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043832" lon="15.950670">
+        <ele>288.39</ele>
+        <time>2026-10-02T06:48:11.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043832" lon="15.950670">
+        <ele>288.39</ele>
+        <time>2026-10-02T06:48:11.000Z</time>
+        <extensions>
+          <hotair:vsi>19.36</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043825" lon="15.950677">
+        <ele>289.17</ele>
+        <time>2026-10-02T06:48:21.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043825" lon="15.950677">
+        <ele>289.17</ele>
+        <time>2026-10-02T06:48:21.000Z</time>
+        <extensions>
+          <hotair:vsi>-9.35</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043805" lon="15.950693">
+        <ele>289.53</ele>
+        <time>2026-10-02T06:48:32.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043805" lon="15.950693">
+        <ele>289.53</ele>
+        <time>2026-10-02T06:48:32.000Z</time>
+        <extensions>
+          <hotair:vsi>17.4</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043788" lon="15.950744">
+        <ele>292.13</ele>
+        <time>2026-10-02T06:48:43.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043788" lon="15.950744">
+        <ele>292.13</ele>
+        <time>2026-10-02T06:48:43.000Z</time>
+        <extensions>
+          <hotair:vsi>61.11</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043782" lon="15.950771">
+        <ele>291.23</ele>
+        <time>2026-10-02T06:48:53.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043757" lon="15.950835">
+        <ele>288.86</ele>
+        <time>2026-10-02T06:49:04.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043757" lon="15.950835">
+        <ele>288.86</ele>
+        <time>2026-10-02T06:49:04.000Z</time>
+        <extensions>
+          <hotair:vsi>-59.6</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043686" lon="15.950894">
+        <ele>286.85</ele>
+        <time>2026-10-02T06:49:15.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043686" lon="15.950894">
+        <ele>286.85</ele>
+        <time>2026-10-02T06:49:15.000Z</time>
+        <extensions>
+          <hotair:vsi>-10.1</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043628" lon="15.950910">
+        <ele>286.83</ele>
+        <time>2026-10-02T06:49:26.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043628" lon="15.950910">
+        <ele>286.83</ele>
+        <time>2026-10-02T06:49:26.000Z</time>
+        <extensions>
+          <hotair:vsi>-19.61</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043578" lon="15.950915">
+        <ele>287.11</ele>
+        <time>2026-10-02T06:49:36.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043578" lon="15.950915">
+        <ele>287.11</ele>
+        <time>2026-10-02T06:49:36.000Z</time>
+        <extensions>
+          <hotair:vsi>20.35</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043526" lon="15.950957">
+        <ele>285.41</ele>
+        <time>2026-10-02T06:49:47.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043526" lon="15.950957">
+        <ele>285.41</ele>
+        <time>2026-10-02T06:49:47.000Z</time>
+        <extensions>
+          <hotair:vsi>-27.53</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043471" lon="15.950978">
+        <ele>285.01</ele>
+        <time>2026-10-02T06:49:58.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043471" lon="15.950978">
+        <ele>285.01</ele>
+        <time>2026-10-02T06:49:58.000Z</time>
+        <extensions>
+          <hotair:vsi>-25.68</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043437" lon="15.950990">
+        <ele>284.61</ele>
+        <time>2026-10-02T06:50:08.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043437" lon="15.950990">
+        <ele>284.61</ele>
+        <time>2026-10-02T06:50:08.000Z</time>
+        <extensions>
+          <hotair:vsi>5.28</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043421" lon="15.950998">
+        <ele>284.27</ele>
+        <time>2026-10-02T06:50:18.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043421" lon="15.950998">
+        <ele>284.27</ele>
+        <time>2026-10-02T06:50:18.000Z</time>
+        <extensions>
+          <hotair:vsi>-3.73</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043379" lon="15.951052">
+        <ele>284.65</ele>
+        <time>2026-10-02T06:50:29.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043379" lon="15.951052">
+        <ele>284.65</ele>
+        <time>2026-10-02T06:50:29.000Z</time>
+        <extensions>
+          <hotair:vsi>-10.38</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043329" lon="15.951112">
+        <ele>282.98</ele>
+        <time>2026-10-02T06:50:39.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043329" lon="15.951112">
+        <ele>282.98</ele>
+        <time>2026-10-02T06:50:39.000Z</time>
+        <extensions>
+          <hotair:vsi>-19.52</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043271" lon="15.951149">
+        <ele>285.04</ele>
+        <time>2026-10-02T06:50:49.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043271" lon="15.951149">
+        <ele>285.04</ele>
+        <time>2026-10-02T06:50:49.000Z</time>
+        <extensions>
+          <hotair:vsi>-1.65</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043220" lon="15.951194">
+        <ele>286.16</ele>
+        <time>2026-10-02T06:51:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043220" lon="15.951194">
+        <ele>286.16</ele>
+        <time>2026-10-02T06:51:00.000Z</time>
+        <extensions>
+          <hotair:vsi>28.94</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043185" lon="15.951225">
+        <ele>284.59</ele>
+        <time>2026-10-02T06:51:10.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043185" lon="15.951225">
+        <ele>284.59</ele>
+        <time>2026-10-02T06:51:10.000Z</time>
+        <extensions>
+          <hotair:vsi>6.15</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043127" lon="15.951284">
+        <ele>284.29</ele>
+        <time>2026-10-02T06:51:21.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043127" lon="15.951284">
+        <ele>284.29</ele>
+        <time>2026-10-02T06:51:21.000Z</time>
+        <extensions>
+          <hotair:vsi>-17.79</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043080" lon="15.951323">
+        <ele>281.48</ele>
+        <time>2026-10-02T06:51:31.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043080" lon="15.951323">
+        <ele>281.48</ele>
+        <time>2026-10-02T06:51:31.000Z</time>
+        <extensions>
+          <hotair:vsi>-8.75</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.043018" lon="15.951350">
+        <ele>282.41</ele>
+        <time>2026-10-02T06:51:42.000Z</time>
+      </trkpt>
+      <trkpt lat="47.043018" lon="15.951350">
+        <ele>282.41</ele>
+        <time>2026-10-02T06:51:42.000Z</time>
+        <extensions>
+          <hotair:vsi>-40.33</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042952" lon="15.951324">
+        <ele>283.09</ele>
+        <time>2026-10-02T06:51:52.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042952" lon="15.951324">
+        <ele>283.09</ele>
+        <time>2026-10-02T06:51:52.000Z</time>
+        <extensions>
+          <hotair:vsi>21.61</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042888" lon="15.951314">
+        <ele>283.13</ele>
+        <time>2026-10-02T06:52:02.000Z</time>
+        <extensions>
+          <hotair:vsi>18.34</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042820" lon="15.951300">
+        <ele>283.98</ele>
+        <time>2026-10-02T06:52:12.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042820" lon="15.951300">
+        <ele>283.98</ele>
+        <time>2026-10-02T06:52:12.000Z</time>
+        <extensions>
+          <hotair:vsi>9.06</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042761" lon="15.951271">
+        <ele>282.05</ele>
+        <time>2026-10-02T06:52:23.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042761" lon="15.951271">
+        <ele>282.05</ele>
+        <time>2026-10-02T06:52:23.000Z</time>
+        <extensions>
+          <hotair:vsi>-13.44</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042712" lon="15.951237">
+        <ele>283.21</ele>
+        <time>2026-10-02T06:52:33.000Z</time>
+        <extensions>
+          <hotair:vsi>-18.28</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042656" lon="15.951199">
+        <ele>283.73</ele>
+        <time>2026-10-02T06:52:44.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042656" lon="15.951199">
+        <ele>283.73</ele>
+        <time>2026-10-02T06:52:44.000Z</time>
+        <extensions>
+          <hotair:vsi>14.06</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042631" lon="15.951176">
+        <ele>283.41</ele>
+        <time>2026-10-02T06:52:55.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042631" lon="15.951176">
+        <ele>283.41</ele>
+        <time>2026-10-02T06:52:55.000Z</time>
+        <extensions>
+          <hotair:vsi>-11.13</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042642" lon="15.951188">
+        <ele>281.91</ele>
+        <time>2026-10-02T06:53:05.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042636" lon="15.951193">
+        <ele>282.28</ele>
+        <time>2026-10-02T06:53:15.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042636" lon="15.951193">
+        <ele>282.28</ele>
+        <time>2026-10-02T06:53:15.000Z</time>
+        <extensions>
+          <hotair:vsi>-12.55</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042639" lon="15.951183">
+        <ele>283.12</ele>
+        <time>2026-10-02T06:53:25.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042634" lon="15.951195">
+        <ele>282.87</ele>
+        <time>2026-10-02T06:53:36.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042634" lon="15.951195">
+        <ele>282.87</ele>
+        <time>2026-10-02T06:53:36.000Z</time>
+        <extensions>
+          <hotair:vsi>-11.79</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042638" lon="15.951186">
+        <ele>284.64</ele>
+        <time>2026-10-02T06:53:46.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042638" lon="15.951186">
+        <ele>284.64</ele>
+        <time>2026-10-02T06:53:46.000Z</time>
+        <extensions>
+          <hotair:vsi>22.87</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042647" lon="15.951183">
+        <ele>285.15</ele>
+        <time>2026-10-02T06:53:56.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042650" lon="15.951165">
+        <ele>281.04</ele>
+        <time>2026-10-02T06:54:07.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042650" lon="15.951165">
+        <ele>281.04</ele>
+        <time>2026-10-02T06:54:07.000Z</time>
+        <extensions>
+          <hotair:vsi>-43.1</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042659" lon="15.951174">
+        <ele>282.13</ele>
+        <time>2026-10-02T06:54:18.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042659" lon="15.951174">
+        <ele>282.13</ele>
+        <time>2026-10-02T06:54:18.000Z</time>
+        <extensions>
+          <hotair:vsi>3.56</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042654" lon="15.951174">
+        <ele>282.14</ele>
+        <time>2026-10-02T06:54:29.000Z</time>
+        <extensions>
+          <hotair:vsi>4.21</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042663" lon="15.951169">
+        <ele>283.45</ele>
+        <time>2026-10-02T06:54:40.000Z</time>
+        <extensions>
+          <hotair:vsi>7.06</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042649" lon="15.951168">
+        <ele>282.02</ele>
+        <time>2026-10-02T06:54:50.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042649" lon="15.951168">
+        <ele>282.02</ele>
+        <time>2026-10-02T06:54:50.000Z</time>
+        <extensions>
+          <hotair:vsi>-17.13</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.042622" lon="15.951179">
+        <ele>278.20</ele>
+        <time>2026-10-02T06:55:00.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042642" lon="15.951177">
+        <ele>282.84</ele>
+        <time>2026-10-02T06:55:10.000Z</time>
+      </trkpt>
+      <trkpt lat="47.042642" lon="15.951177">
+        <ele>282.84</ele>
+        <time>2026-10-02T06:55:10.000Z</time>
+        <extensions>
+          <hotair:vsi>-41.27</hotair:vsi>
+          <hotair:vsi_unit>ft/min</hotair:vsi_unit>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

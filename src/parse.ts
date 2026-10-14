@@ -1,0 +1,658 @@
+/**
+ * Import GPX / KML / KMZ / GeoJSON / IGC files into tracks (line geometry and times).
+ * Uses @tmcw/togeojson for XML formats; GeoJSON via JSON.parse; KMZ via fflate unzip;
+ * IGC via igc-parser (Turbo87).
+ */
+
+export type TrackPoint = { lat: number; lon: number; z: number | null; t?: number };
+export type Track = { name: string; sourceName: string; coords: TrackPoint[] };
+export type ParseResult = { tracks: Track[]; warnings: string[] };
+
+const FLIGHTPACK_START_RE =
+  /Starting at time\s+(\d{2})_(\d{2})_(\d{4})\s+(\d{2})_(\d{2})_(\d{2})/i;
+const FLIGHTPACK_PERIOD_RE = /Sampling period is\s+(\d+(?:\.\d+)?)\s+seconds/i;
+
+/**
+ * @param {Document} doc
+ * @returns {string}
+ */
+function kmlDescriptionText(doc) {
+  const documents = doc.getElementsByTagName("Document");
+  const n = documents.length;
+  for (let i = 0; i < n; i++) {
+    const node = documents[i];
+    const descs = node.getElementsByTagName("description");
+    for (let j = 0; j < descs.length; j++) {
+      const el = descs[j];
+      const parent = el.parentNode;
+      const raw = parent && (parent.localName || parent.nodeName || "");
+      const parentName = String(raw).replace(/^.*:/, "").toLowerCase();
+      if (parentName === "document") {
+        return String(el.textContent || "").trim();
+      }
+    }
+    if (descs.length) return String(descs[0].textContent || "").trim();
+  }
+  const all = doc.getElementsByTagName("description");
+  return all.length ? String(all[0].textContent || "").trim() : "";
+}
+
+/**
+ * @param {string} desc
+ * @returns {{ day: number, month: number, year: number, hour: number, minute: number, second: number, periodSec: number }|null}
+ */
+function parseFlightPackClock(desc) {
+  if (!/Ultramagic\s+FlightPack/i.test(desc)) return null;
+  const start = desc.match(FLIGHTPACK_START_RE);
+  const period = desc.match(FLIGHTPACK_PERIOD_RE);
+  if (!start || !period) return null;
+  const day = +start[1];
+  const month = +start[2];
+  const year = +start[3];
+  const hour = +start[4];
+  const minute = +start[5];
+  const second = +start[6];
+  const periodSec = +period[1];
+  if (!(day >= 1 && day <= 31 && month >= 1 && month <= 12 && year >= 1000)) return null;
+  if (!(hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59 && second >= 0 && second <= 60)) {
+    return null;
+  }
+  if (!(periodSec > 0) || !Number.isFinite(periodSec)) return null;
+  return { day, month, year, hour, minute, second, periodSec };
+}
+
+/**
+ * Offset of `timeZone` from UTC at `utcMs` (local − UTC).
+ * @param {number} utcMs
+ * @param {string} timeZone
+ */
+function tzOffsetMs(utcMs, timeZone) {
+  const dtf = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  });
+  const map = Object.create(null);
+  for (const p of dtf.formatToParts(new Date(utcMs))) {
+    if (p.type !== "literal") map[p.type] = p.value;
+  }
+  const asUtc = Date.UTC(
+    +map.year,
+    +map.month - 1,
+    +map.day,
+    +map.hour,
+    +map.minute,
+    +map.second,
+  );
+  return asUtc - utcMs;
+}
+
+/**
+ * Wall clock in `timeZone` → epoch ms.
+ * @param {{ year: number, month: number, day: number, hour: number, minute: number, second: number }} wall
+ * @param {string} timeZone
+ */
+function wallTimeToUtcMs(wall, timeZone) {
+  const wallAsUtc = Date.UTC(
+    wall.year,
+    wall.month - 1,
+    wall.day,
+    wall.hour,
+    wall.minute,
+    wall.second,
+  );
+  let utc = wallAsUtc - tzOffsetMs(wallAsUtc, timeZone);
+  utc = wallAsUtc - tzOffsetMs(utc, timeZone);
+  return utc;
+}
+
+/**
+ * @param {{ tracks: Track[], warnings: string[] }} result
+ * @param {Document} doc
+ */
+async function applyFlightPackTimes(result, doc) {
+  const clock = parseFlightPackClock(kmlDescriptionText(doc));
+  if (!clock) return;
+
+  let first: TrackPoint | null = null;
+  for (const d of result.tracks) {
+    if (d.coords?.length) {
+      first = d.coords[0];
+      break;
+    }
+  }
+  if (!first) return;
+
+  let timeZone;
+  try {
+    const mod = await import("tz-lookup");
+    const tzlookup = mod.default || mod;
+    timeZone = tzlookup(first.lat, first.lon);
+  } catch (err) {
+    result.warnings.push(`FlightPack-Zeitzone unbekannt: ${err.message || err}`);
+    return;
+  }
+  if (!timeZone || typeof timeZone !== "string") {
+    result.warnings.push("FlightPack-Zeitzone unbekannt.");
+    return;
+  }
+
+  let startUtcMs;
+  try {
+    startUtcMs = wallTimeToUtcMs(clock, timeZone);
+  } catch (err) {
+    result.warnings.push(`FlightPack-Startzeit ungültig: ${err.message || err}`);
+    return;
+  }
+  if (!Number.isFinite(startUtcMs)) {
+    result.warnings.push("FlightPack-Startzeit ungültig.");
+    return;
+  }
+
+  const step = clock.periodSec * 1000;
+  for (const d of result.tracks) {
+    if (d.coords.some((c) => c.t != null)) continue;
+    for (let i = 0; i < d.coords.length; i++) {
+      d.coords[i].t = startUtcMs + i * step;
+    }
+  }
+}
+
+/**
+ * @param {Document} doc
+ * @returns {string}
+ */
+function kmlAllDescriptions(doc) {
+  const nodes = doc.getElementsByTagName("description");
+  const parts: string[] = [];
+  for (let i = 0; i < nodes.length; i++) {
+    parts.push(String(nodes[i].textContent || ""));
+  }
+  return parts.join("\n");
+}
+
+/**
+ * Direct child text, ignoring namespaced prefixes.
+ * @param {Element} el
+ * @param {string} tag
+ */
+function directChildText(el, tag) {
+  const want = tag.toLowerCase();
+  const kids = el.childNodes || [];
+  for (let i = 0; i < kids.length; i++) {
+    const n = kids[i];
+    const raw = n.localName || n.nodeName || "";
+    const name = String(raw).replace(/^.*:/, "").toLowerCase();
+    if (name === want) return String(n.textContent || "").trim();
+  }
+  return "";
+}
+
+/**
+ * @param {TrackPoint[]} coords
+ */
+function coordsFullyTimed(coords) {
+  return coords.length > 0 && coords.every((c) => c.t != null);
+}
+
+/**
+ * Hot Air KML stores the timed path as gx:Track and repeats it as untimed
+ * extruded segments plus a ground line. Keep the timed track only.
+ * @param {{ tracks: Track[], warnings: string[] }} result
+ * @param {Document} doc
+ */
+function dropUntimedHotAir(result, doc) {
+  if (!/Hot Air app/i.test(kmlAllDescriptions(doc))) return;
+  if (!result.tracks.some((d) => coordsFullyTimed(d.coords))) return;
+  const kept = result.tracks.filter((d) => d.coords.some((c) => c.t != null));
+  const dropped = result.tracks.length - kept.length;
+  if (!dropped) return;
+  result.tracks = kept;
+  result.warnings.push(
+    `${dropped} unzeitgestempelte Hilfslinie${dropped === 1 ? "" : "n"} verworfen.`,
+  );
+}
+
+const AIRNAV_DEP_RE = /^Departure\s+(\S+)/i;
+const AIRNAV_ARR_RE = /^Arrival\s+(\S+)/i;
+
+/**
+ * @param {string} name
+ */
+function decodeTrackName(name) {
+  if (!/%[0-9A-Fa-f]{2}/.test(name)) return name;
+  try {
+    return decodeURIComponent(name);
+  } catch {
+    return name;
+  }
+}
+
+/**
+ * Air Navigation Pro exports one LineString without per-point times.
+ * Departure and Arrival placemark names are the endpoint instants; stamp a
+ * uniform interval between them.
+ * @param {{ tracks: Track[], warnings: string[] }} result
+ * @param {Document} doc
+ */
+function applyAirNavTimes(result, doc) {
+  if (!/Air Navigation Pro/i.test(kmlAllDescriptions(doc))) return;
+
+  let tDep: number | null = null;
+  let tArr: number | null = null;
+  const marks = doc.getElementsByTagName("Placemark");
+  for (let i = 0; i < marks.length; i++) {
+    const name = directChildText(marks[i], "name");
+    const dep = name.match(AIRNAV_DEP_RE);
+    const arr = name.match(AIRNAV_ARR_RE);
+    if (dep) tDep = parseTimeMs(dep[1]);
+    if (arr) tArr = parseTimeMs(arr[1]);
+  }
+  if (tDep == null || tArr == null || !(tArr > tDep)) {
+    result.warnings.push("Air-Navigation-Abflug- oder Ankunftszeit fehlt.");
+    return;
+  }
+
+  let stamped = 0;
+  for (const d of result.tracks) {
+    if (d.coords.some((c) => c.t != null)) continue;
+    const n = d.coords.length;
+    if (n < 2) continue;
+    const span = tArr - tDep;
+    for (let i = 0; i < n; i++) {
+      d.coords[i].t = Math.round(tDep + (i * span) / (n - 1));
+    }
+    d.name = decodeTrackName(d.name);
+    stamped += 1;
+  }
+  if (stamped) {
+    result.warnings.push(
+      "Zeiten gleichmäßig zwischen Abflug und Ankunft verteilt (keine Punktzeiten in der Datei).",
+    );
+  }
+}
+
+/**
+ * @param {unknown} v ISO string, epoch ms, or epoch seconds
+ * @returns {number|null}
+ */
+function parseTimeMs(v) {
+  if (v == null || v === "") return null;
+  if (typeof v === "number" && Number.isFinite(v)) {
+    return v < 1e12 ? Math.round(v * 1000) : v;
+  }
+  const ms = Date.parse(String(v));
+  return Number.isFinite(ms) ? ms : null;
+}
+
+/**
+ * togeojson: `coordTimes`; GeoJSON-T / others: `times` or `coordinateProperties.times`.
+ * @param {Record<string, unknown>|null|undefined} props
+ * @returns {unknown[]|undefined}
+ */
+function coordTimesFromProps(props) {
+  if (!props || typeof props !== "object") return undefined;
+  const cp = props.coordinateProperties;
+  if (cp && typeof cp === "object") {
+    const nested = /** @type {Record<string, unknown>} */ (cp).times;
+    if (Array.isArray(nested)) return nested;
+  }
+  if (Array.isArray(props.coordTimes)) return props.coordTimes;
+  if (Array.isArray(props.times)) return props.times;
+  return undefined;
+}
+
+/**
+ * @param {unknown[]|undefined} times
+ * @param {number} partIndex
+ * @param {boolean} multi
+ * @returns {unknown[]|undefined}
+ */
+function timesForPart(times, partIndex, multi) {
+  if (!Array.isArray(times)) return undefined;
+  if (!multi) return times;
+  const part = times[partIndex];
+  return Array.isArray(part) ? part : undefined;
+}
+
+/**
+ * @param {number[]} c GeoJSON position [lon, lat, ele?]
+ * @returns {TrackPoint|null}
+ */
+function posToCoord(c): TrackPoint | null {
+  if (!Array.isArray(c) || c.length < 2) return null;
+  const lon = +c[0];
+  const lat = +c[1];
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+  const z = c.length > 2 && Number.isFinite(+c[2]) ? +c[2] : null;
+  return { lat, lon, z };
+}
+
+/**
+ * @param {unknown} coords LineString coordinates
+ * @param {unknown[]|undefined} [times]
+ * @returns {TrackPoint[]}
+ */
+export function lineCoords(coords, times) {
+  if (!Array.isArray(coords)) return [];
+  const out: TrackPoint[] = [];
+  for (let i = 0; i < coords.length; i++) {
+    const p = posToCoord(coords[i]);
+    if (!p) continue;
+    const t = parseTimeMs(times?.[i]);
+    if (t != null) p.t = t;
+    out.push(p);
+  }
+  return out;
+}
+
+/**
+ * Drop a repeated fix (same position and timestamp). A later timestamp at the
+ * same position stays, so a hover still has a zero-speed sample.
+ * @param {TrackPoint[]} coords
+ * @returns {TrackPoint[]}
+ */
+function collapseSameFix(coords) {
+  const out: TrackPoint[] = [];
+  for (const p of coords) {
+    const prev = out[out.length - 1];
+    if (prev && prev.lat === p.lat && prev.lon === p.lon && prev.t === p.t) {
+      if (prev.z == null && p.z != null) prev.z = p.z;
+      continue;
+    }
+    out.push(p);
+  }
+  return out;
+}
+
+/**
+ * @param {Track[]} out
+ * @param {string} name
+ * @param {string} sourceName
+ * @param {TrackPoint[]} coords
+ */
+function pushLine(out, name, sourceName, coords) {
+  const kept = collapseSameFix(coords);
+  if (kept.length < 2) return;
+  out.push({ name, sourceName, coords: kept });
+}
+
+/**
+ * @param {GeoJSON.Geometry|null|undefined} geom
+ * @param {string} name
+ * @param {string} sourceName
+ * @param {Track[]} out
+ * @param {unknown[]|undefined} [times]
+ */
+function collectGeometry(geom, name, sourceName, out, times?) {
+  if (!geom || !geom.type) return;
+  if (geom.type === "LineString") {
+    pushLine(out, name, sourceName, lineCoords(geom.coordinates, timesForPart(times, 0, false)));
+  } else if (geom.type === "MultiLineString") {
+    const parts = Array.isArray(geom.coordinates) ? geom.coordinates : [];
+    parts.forEach((part, i) => {
+      const label = parts.length > 1 ? `${name} (${i + 1})` : name;
+      pushLine(out, label, sourceName, lineCoords(part, timesForPart(times, i, true)));
+    });
+  } else if (geom.type === "GeometryCollection" && Array.isArray(geom.geometries)) {
+    for (const g of geom.geometries) collectGeometry(g, name, sourceName, out);
+  }
+}
+
+/**
+ * @param {unknown} gj
+ * @param {string} sourceName
+ * @returns {{ tracks: Track[], warnings: string[] }}
+ */
+export function tracksFromGeoJSON(gj, sourceName): ParseResult {
+  const tracks: Track[] = [];
+  const warnings: string[] = [];
+  if (!gj || typeof gj !== "object") {
+    return { tracks, warnings: ["Kein gültiges GeoJSON."] };
+  }
+  const root = /** @type {Record<string, unknown>} */ (gj);
+  if (root.type === "FeatureCollection" && Array.isArray(root.features)) {
+    for (const f of root.features) {
+      if (!f || typeof f !== "object") continue;
+      const feat = /** @type {Record<string, unknown>} */ (f);
+      const props = /** @type {Record<string, unknown>} */ (feat.properties || {});
+      const name = String(props.name || props.Name || sourceName);
+      collectGeometry(/** @type {any} */ (feat.geometry), name, sourceName, tracks, coordTimesFromProps(props));
+    }
+  } else if (root.type === "Feature") {
+    const props = /** @type {Record<string, unknown>} */ (root.properties || {});
+    const name = String(props.name || props.Name || sourceName);
+    collectGeometry(/** @type {any} */ (root.geometry), name, sourceName, tracks, coordTimesFromProps(props));
+  } else if (typeof root.type === "string") {
+    collectGeometry(/** @type {any} */ (gj), sourceName, sourceName, tracks);
+  } else {
+    warnings.push("Unbekanntes GeoJSON-Objekt.");
+  }
+  if (!tracks.length) warnings.push("Keine Linienzüge (LineString) gefunden.");
+  return { tracks, warnings };
+}
+
+/**
+ * @param {string} xml
+ * @returns {Promise<Document>}
+ */
+async function parseXml(xml): Promise<Document> {
+  if (typeof DOMParser !== "undefined") {
+    return new DOMParser().parseFromString(xml, "text/xml");
+  }
+  const { DOMParser: XDOMParser } = await import("@xmldom/xmldom");
+  return new XDOMParser().parseFromString(xml, "text/xml") as unknown as Document;
+}
+
+/**
+ * KML-Text aus einem KMZ (ZIP) holen. Bevorzugt `doc.kml`, sonst erste `.kml`.
+ * @param {ArrayBuffer|Uint8Array} buffer
+ * @returns {Promise<{ kmlText: string, kmlPath: string }>}
+ */
+export async function kmlFromKmz(buffer) {
+  const { unzipSync, strFromU8 } = await import("fflate");
+  const raw = buffer instanceof Uint8Array ? buffer : new Uint8Array(buffer);
+  let files;
+  try {
+    files = unzipSync(raw);
+  } catch (err) {
+    throw new Error(`KMZ konnte nicht entpackt werden: ${err.message || err}`);
+  }
+  const paths = Object.keys(files).filter((p) => /\.kml$/i.test(p) && !p.endsWith("/"));
+  if (!paths.length) throw new Error("Keine .kml-Datei im KMZ.");
+  const preferred = paths.find((p) => /(^|\/)doc\.kml$/i.test(p)) || paths[0];
+  return { kmlText: strFromU8(files[preferred]), kmlPath: preferred };
+}
+
+const MAX_IGC_PARSE_ERRORS = 3;
+
+/**
+ * @param {string} text
+ * @param {string} filename
+ */
+function looksIgc(text, filename) {
+  if (String(filename || "").toLowerCase().endsWith(".igc")) return true;
+  return /HFDTE/i.test(text) && /^B/m.test(text);
+}
+
+/**
+ * @param {unknown} v
+ * @returns {number|null}
+ */
+function finiteOrNull(v) {
+  if (v == null || v === "") return null;
+  const n = typeof v === "number" ? v : +v;
+  return Number.isFinite(n) ? n : null;
+}
+
+/**
+ * @param {string} text
+ */
+function normalizeIgcText(text) {
+  // igc-parser's HFDTEDATE regex does not allow a space after the colon.
+  let out = String(text || "").replace(/^HFDTEDATE:\s+/im, "HFDTEDATE:");
+  // A record is mandatory; some loggers omit it (e.g. igc_lib middle-landing fixture).
+  if (!/^A/m.test(out)) out = `AXXXUNK\n${out}`;
+  return out;
+}
+
+/**
+ * IGC B-records → one Track. GPS height, then pressure; drop invalid (V) fixes.
+ * @param {string} text
+ * @param {string} sourceName
+ * @returns {Promise<{ tracks: Track[], warnings: string[] }>}
+ */
+export async function tracksFromIgc(text, sourceName): Promise<ParseResult> {
+  const tracks: Track[] = [];
+  const warnings: string[] = [];
+  let IGCParser;
+  try {
+    const mod = await import("igc-parser");
+    IGCParser = mod.default ?? mod;
+  } catch (err) {
+    return { tracks, warnings: [`IGC-Parser nicht geladen: ${err.message || err}`] };
+  }
+
+  let flight;
+  try {
+    flight = IGCParser.parse(normalizeIgcText(text), { lenient: true });
+  } catch (err) {
+    return { tracks, warnings: [`IGC-Parsefehler: ${err.message || err}`] };
+  }
+
+  const errs = Array.isArray(flight?.errors) ? flight.errors : [];
+  if (errs.length) {
+    const shown = errs.slice(0, MAX_IGC_PARSE_ERRORS).map((e) => e.message || String(e));
+    const extra = errs.length > MAX_IGC_PARSE_ERRORS
+      ? ` (+${errs.length - MAX_IGC_PARSE_ERRORS} weitere)`
+      : "";
+    warnings.push(`IGC: ${shown.join("; ")}${extra}`);
+  }
+
+  const fixes = Array.isArray(flight?.fixes) ? flight.fixes : [];
+  let droppedV = 0;
+  const coords: TrackPoint[] = [];
+  for (const fix of fixes) {
+    if (!fix || fix.valid === false) {
+      droppedV += 1;
+      continue;
+    }
+    const lat = finiteOrNull(fix.latitude);
+    const lon = finiteOrNull(fix.longitude);
+    if (lat == null || lon == null) continue;
+    const gps = finiteOrNull(fix.gpsAltitude);
+    const pressure = finiteOrNull(fix.pressureAltitude);
+    const z = gps ?? pressure;
+    const t = finiteOrNull(fix.timestamp);
+    const p: TrackPoint = { lat, lon, z };
+    if (t != null) p.t = t;
+    coords.push(p);
+  }
+  if (droppedV) {
+    warnings.push(`${droppedV} ungültige GPS-Fixes weggelassen`);
+  }
+
+  const name = String(
+    flight?.registration || flight?.callsign || flight?.pilot || sourceName,
+  ).trim() || sourceName;
+  pushLine(tracks, name, sourceName, coords);
+  if (!tracks.length) warnings.push("Keine Linienzüge (LineString) gefunden.");
+  return { tracks, warnings };
+}
+
+/**
+ * @param {string} text
+ * @param {string} filename
+ * @returns {Promise<{ tracks: Track[], warnings: string[] }>}
+ */
+export async function parseTrackText(text, filename) {
+  const sourceName = filename || "track";
+  const lower = sourceName.toLowerCase();
+  if (lower.endsWith(".kmz")) {
+    return {
+      tracks: [],
+      warnings: ["KMZ bitte als Binärdatei laden (parseTrackBytes)."],
+    };
+  }
+  const trimmed = String(text || "").trim();
+  if (!trimmed) return { tracks: [], warnings: ["Datei ist leer."] };
+
+  if (looksIgc(trimmed, sourceName)) {
+    return tracksFromIgc(trimmed, sourceName);
+  }
+
+  const looksJson = trimmed.startsWith("{") || trimmed.startsWith("[")
+    || lower.endsWith(".geojson") || lower.endsWith(".json");
+  const looksGpx = /<gpx[\s>]/i.test(trimmed) || lower.endsWith(".gpx");
+  const looksKml = /<kml[\s>]/i.test(trimmed) || lower.endsWith(".kml");
+
+  if (looksJson && !looksGpx && !looksKml) {
+    try {
+      return tracksFromGeoJSON(JSON.parse(trimmed), sourceName);
+    } catch (err) {
+      return { tracks: [], warnings: [`GeoJSON-Parsefehler: ${err.message}`] };
+    }
+  }
+
+  if (looksGpx || looksKml) {
+    const { gpx, kml } = await import("@tmcw/togeojson");
+    const doc = await parseXml(trimmed);
+    const errNode = typeof doc.querySelector === "function"
+      ? doc.querySelector("parsererror")
+      : null;
+    if (errNode) {
+      return { tracks: [], warnings: ["XML konnte nicht gelesen werden."] };
+    }
+    try {
+      const gj = looksGpx ? gpx(doc) : kml(doc);
+      const result = tracksFromGeoJSON(gj, sourceName);
+      if (looksKml) {
+        await applyFlightPackTimes(result, doc);
+        applyAirNavTimes(result, doc);
+        dropUntimedHotAir(result, doc);
+      }
+      return result;
+    } catch (err) {
+      return { tracks: [], warnings: [`${looksGpx ? "GPX" : "KML"}-Konvertierung: ${err.message}`] };
+    }
+  }
+
+  try {
+    return tracksFromGeoJSON(JSON.parse(trimmed), sourceName);
+  } catch {
+    /* fall through */
+  }
+  return { tracks: [], warnings: ["Format nicht erkannt (GPX, KML, KMZ, GeoJSON oder IGC)."] };
+}
+
+/**
+ * Bytes or text of one GPS file. `.kmz` is unzipped; everything else is decoded as UTF-8.
+ */
+export async function parseTrackBytes(
+  data: ArrayBuffer | Uint8Array | string,
+  filename = "track",
+): Promise<ParseResult> {
+  const sourceName = filename || "track";
+  const lower = sourceName.toLowerCase();
+  if (lower.endsWith(".kmz")) {
+    try {
+      const buf = typeof data === "string"
+        ? new TextEncoder().encode(data)
+        : data;
+      const { kmlText } = await kmlFromKmz(buf);
+      return parseTrackText(kmlText, sourceName.replace(/\.kmz$/i, ".kml"));
+    } catch (err) {
+      return { tracks: [], warnings: [err.message || String(err)] };
+    }
+  }
+  if (typeof data === "string") return parseTrackText(data, filename);
+  const text = new TextDecoder("utf-8").decode(
+    data instanceof Uint8Array ? data : new Uint8Array(data),
+  );
+  return parseTrackText(text, filename);
+}
